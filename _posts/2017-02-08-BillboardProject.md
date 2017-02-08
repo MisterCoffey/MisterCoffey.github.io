@@ -1,6 +1,6 @@
 ---
 layout: post
-Title: Is Song Length the 'Key' to Chart Success?
+title: Is Song Length the 'Key' to Chart Success?
 ---
 
 Does the length of a song hold the secret its success on the Billboard charts? The results are inconclusive, but there was a big difference between the length of rock songs in 2000 when compared to other genres.
