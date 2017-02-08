@@ -1,23 +1,22 @@
 ---
 layout: post
-Author: Billboard
+Author: Coffey
+Title: Is Song Length the 'Key' to Chart Success?
 ---
 
-Does the length of a song hold the secret its success?
+Does the length of a song hold the secret its success on the Billboard charts? The results are inconclusive, but there was a big difference between the length of rock songs in 2000 when compared to other genres.
 
-After examining the Billboard Hot 100 chart, the answer is inconclusive.
-
-There is a very weak correlation between the length of a song and its success on the chart in 2000. In fact, the only strong correlations are between chart positions in adjoining weeks, as demonstrated by the heat map below.
+Song length was not correlated to Billboard chart success in 2000. In fact, the only strong correlations were between chart positions in adjoining weeks, as demonstrated by the heat map below.
 
 ![heatmap](../images/Project2Billboard/Heat_Chart.png)
 
 In 2000, a song was more likely to enter the charts at No. 80 than any other position. This makes sense as one would expect a song to enter towards the bottom and climb to the top.
 
-There were of course exceptions to this rule.
-
 ![heatmap](../images/Project2Billboard/Histo.png)
 
-Santana's 'Maria, Maria' entered the charts at No. 15, making it an outlier in terms of its initial chart position. Perhaps surprising, but consider that in 2000, Santana was a Woodstock legend with roughly 30 years of recording experience.
+There were of course exceptions to this rule.
+
+Santana's 'Maria, Maria' entered the charts at No. 15, making it an outlier in terms of its initial chart position. Surprising perhaps, but consider at that point, Santana was a Woodstock legend with roughly 30 years of recording experience.
 
 ![heatmap](../images/Project2Billboard/woodstock.png)
 
@@ -35,4 +34,4 @@ Hit rock songs were simply longer on average than all other hit songs.
 
 ![heatmap](../images/Project2Billboard/HypothesisTestMeans.png)
 
-So did the length of a rock song contribute to its success in 2000? It's impossible to draw a causal conclusion, as this analysis is based on observational data. Moreover, The Billboard 100 chart did not include songs that did not chart, making a comparison impossible. Nonetheless, the length of songs, and the possible predictive value is worth greater exploration.
+So did the length of a rock song contribute to its success in 2000? It's impossible to draw a causal conclusion, as this analysis is based on observational data. Moreover, The Billboard 100 chart did not include songs that did not chart, making a comparison impossible. Nonetheless, the possible predictive value of song length is worth greater exploration.
