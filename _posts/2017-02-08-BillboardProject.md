@@ -1,6 +1,5 @@
 ---
 layout: post
-Author: Coffey
 Title: Is Song Length the 'Key' to Chart Success?
 ---
 
