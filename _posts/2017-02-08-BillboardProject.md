@@ -3,9 +3,11 @@ layout: post
 title: Is Song Length the 'Key' to Chart Success?
 ---
 
-Does the length of a song hold the secret its success on the Billboard charts? The results are inconclusive, but there was a big difference between the length of rock songs in 2000 when compared to other genres.
+Does the length of a song hold the secret to success on the Billboard charts? The results are inconclusive, but there is at least one statistically meaningful difference when comparing hit rock songs from 2000 to hits in other genres.
 
-Song length was not correlated to Billboard chart success in 2000. In fact, the only strong correlations were between chart positions in adjoining weeks, as demonstrated by the heat map below.
+Let's take a deep dive.
+
+Song length did not correlate to Billboard chart success in 2000. In fact, the only strong correlations were between chart positions in adjoining weeks, as demonstrated by the heat map below.
 
 ![heatmap](../images/Project2Billboard/Heat_Chart.png)
 
@@ -15,13 +17,13 @@ In 2000, a song was more likely to enter the charts at No. 80 than any other pos
 
 There were of course exceptions to this rule.
 
-Santana's 'Maria, Maria' entered the charts at No. 15, making it an outlier in terms of its initial chart position. Surprising perhaps, but consider at that point, Santana was a Woodstock legend with roughly 30 years of recording experience.
+Santana's 'Maria, Maria' entered the charts at No. 15, making it an outlier in terms of its initial chart position. Surprising perhaps, but consider at this point, Santana was a Woodstock legend with roughly 30 years of recording experience.
 
 ![heatmap](../images/Project2Billboard/woodstock.png)
 
-Still, was there anything different about 'Maria, Maria' when compared to other songs?
+Was there anything else different about 'Maria, Maria' when compared to other hit songs in 2000?
 
-Indeed. 'Maria, Maria' was longer than the average hit song in 2000; it was over 15 seconds longer to be precise. Moreover, 'Maria, Maria' was longer than over 50 percent of all songs that charted in year 2000.
+Indeed. 'Maria, Maria' was longer than the average hit; it was over 15 seconds longer to be precise. In fact, 'Maria, Maria' was longer than over 50 percent of all songs that charted in year 2000.
 
 ![heatmap](../images/Project2Billboard/MariaMariavMean.png)
 
