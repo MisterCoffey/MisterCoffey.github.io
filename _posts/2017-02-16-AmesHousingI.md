@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Location, Location ,Location' Matters, Sort Of
+title: Location Location Location Matters Sort Of
 ---
 
 'Location, Location, Location.' It's a real estate platitude. Some consider location the greatest influence on home prices. But is it true?
@@ -30,12 +30,3 @@ If we run a regression analysis on the Ames data set, we see that the largest co
 ![heatmap](../images/Project3Housing/Regressors.png)
 
 So, yes, location does matter, but when predicting homes in Ames, the size, quality and age of a home matter too. In fact, one can predict with fair accuracy the the price of a home based on the above variables, though inclusion of every neighborhood increases the accuracy of that model by roughly 10 percent.
-
-
-
-
-
-
-
-
-L
