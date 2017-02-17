@@ -9,7 +9,7 @@ title: 'Location, Location. Location' Matters, Sort Of...
 
 In Ames, Iowa, location is one of many predictors of price, but it's not the most important predictor.
 
-For sure, different neighborhoods command different prices in Ames. Just look at the box plot of Ames prices by neighborhood. Homes sell in some areas in excess of $500,000, while others cannot crack the $200,000 threshold. This is strong evidence that location matters above all else.
+For sure, different neighborhoods command different prices. Just look at the box plot of Ames prices by neighborhood. Homes sell in some areas in excess of $500,000, while others cannot crack the $200,000 threshold. This is strong evidence that location matters above all else.
 
 ![hoodmap](../images/Project3Housing/Neighborhood.png)
 
