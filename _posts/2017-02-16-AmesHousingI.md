@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Location, Location. Location' Matters, Sort Of...
+title: 'Location, Location ,Location' Matters, Sort Of
 ---
 
 'Location, Location, Location.' It's a real estate platitude. Some consider location the greatest influence on home prices. But is it true?
@@ -25,7 +25,7 @@ The square footage of a home also has a strong upward influence on home prices.
 
 In fact, the above ground square footage of a home is the greatest predictor when compared to all other variables.
 
-If we run a regression analysis on the Ames data set, we see that the largest coefficients-- that is the biggest influences on price-- are the above ground square footage;  a single pricey neighborhood;  the year built; the overall quality of a home; and another pricey neighborhood.
+If we run a regression analysis on the Ames data set, we see that the largest coefficients-- that is the five biggest influences on price-- are the above ground square footage;  a single pricey neighborhood;  the year built; the overall quality of a home; and another pricey neighborhood. Every other location is subordinate to these five variables.
 
 ![heatmap](../images/Project3Housing/Regressors.png)
 
