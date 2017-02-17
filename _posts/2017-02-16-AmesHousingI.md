@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Location Location Location Matters...sort of
+title: Location Location Location Matters... sort of
 ---
 
 'Location, Location, Location.' It's a real estate platitude. Some consider location the greatest influence on home prices. But is it true?
