@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inequality Works Well in Baseball
+title: Say It Ain't So: Income Inequality Is Having No Negative Impact on Baseball
 ---
 
 Income inequality is a major public policy issue, at least for people on the left. The belief is that income inequality hurts everything from government to personal health.
@@ -71,7 +71,7 @@ If we create a model predicting win percentage using sabrmetric features such as
 
 When we remove salary and Gini as features, the model remains strong. In fact the R squared improves slightly. If we run a model predicting win percentage using team Gini only, the model has a low R squared with little predictive value.  
 
-In other words, team income inequality has no linear relationship with team wins, and has no value as a feature when attempting to predict a baseball team's win percentage. 
+In other words, team income inequality has no linear relationship with team wins, and has no value as a feature when attempting to predict a baseball team's win percentage.
 
 
 
