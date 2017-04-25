@@ -5,7 +5,7 @@ title: Say It Ain't So. Income Inequality 'Ain't' Bad for Baseball
 
 Income inequality is a major public policy issue, at least for people on the left. The belief is that income inequality hurts everything from government to personal health.
 
-What about baseball?
+**INCOME INEQUALITY IN BASEBALL?**
 
 Baseball is a microcosm for all things American. Values of business, immigration, race, fairness, family, music, alcohol and cuisine often reveal themselves on baseball's verdant fields of play. It's a pastime where spectators can witness repeated failure in the absence of fear, and catch fleeting glimpses of the improbable on calm breezy days.
 
@@ -37,7 +37,7 @@ Scholars agree that as salaries rose in baseball, so did inequality of pay among
 
 Such examples of salary inequality are not the result of "unfairness" as much as they are the result of a highly regimented salary structure in baseball, governed by league minimums, arbitration, and free agency.
 
-![GiniGary](../images/ProjectCapstone/GarySanchez.png)
+![GiniGary](../images/ProjectCapstone/GarySanchez.jpg)
 *(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. Source: Wikipedia)*
 
 While Gary Sanchez appears underpaid, remember that Ellsbury has a World Series ring, and one season in which he batted .321, hit 32 home runs, and stole 39 bases. Gary Sanchez in contrast is a rookie who is subject to the league minimum salary structure.
