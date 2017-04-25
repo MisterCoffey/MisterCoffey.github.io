@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Say It Ain't So. Income Inequality Ain't Bad for Baseball
+title: Say It Ain't So. Income Inequality 'Ain't' Bad for Baseball
 ---
 
 Income inequality is a major public policy issue, at least for people on the left. The belief is that income inequality hurts everything from government to personal health.
@@ -11,21 +11,19 @@ Baseball is a microcosm for all things American. Values of business, immigration
 
 But do the dangers of income inequality also reveal themselves in major league baseball?
 
-COMPETING THEORIES OF INCOME INEQUALITY IN BASEBALL
+**COMPETING THEORIES OF INCOME INEQUALITY IN BASEBALL**
 
 There are differing opinions on the subject of income inequality in baseball.  
 
-One theory is that income inequality has a negative influence on team performance. When examining baseball data from 1985-2010, a team of Australian and French researchers found a negative relationship between baseball wage dispersion and team performance.  A similar theory by a Texas researcher in 2001 utilizing data from 1985 - 2000 seasons.
+One theory is that income inequality has a negative influence on team performance. When examining baseball data from 1985-2010, a team of Australian and French researchers found a negative relationship between baseball wage dispersion and team performance.  
 
 The other theory (Krissoff 2013) is that baseball inequality is having little impact on baseball team performance. This theory, based on the 2010 season, finds no relationship between baseball income inequality and team performance.
 
-So which is correct? Is income inequality hurting baseball?  
+This author's research based on statistics from the 2000 through 2016 seasons confirms the latter theory. Income inequality is not negatively influencing baseball teams' win percentages.
 
-When assessing team inequality using a Gini coefficient, and using it as a feature in a linear regression model, the answer is no.
+In fact, adding measures of team salary inequality to classic SABRmetric measures of team performance provides no predictive improvement on those metrics.
 
-Income inequality is not negatively influencing baseball outcomes, at least with respect to the 2000 through 2016 seasons. In fact, adding measures of team salary inequality to classic sabrmetric measures of team performance provides no predictive improvement on those metrics. In fact, measures of salary and salary inequality make increase slightly the errors in a linear regression model.
-
-SALARIES
+**SALARIES**
 
 ![MeanSalary](../images/ProjectCapstone/MeanSalary.png)
 
@@ -40,16 +38,20 @@ Scholars agree that as salaries rose in baseball, so did inequality of pay among
 Such examples of salary inequality are not the result of "unfairness" as much as they are the result of a highly regimented salary structure in baseball, governed by league minimums, arbitration, and free agency.
 
 ![GiniGary](../images/ProjectCapstone/GarySanchez.png)
-(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. Source: Wikipedia)
+*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. Source: Wikipedia)*
 
 While Gary Sanchez appears underpaid, remember that Ellsbury has a World Series ring, and one season in which he batted .321, hit 32 home runs, and stole 39 bases. Gary Sanchez in contrast is a rookie who is subject to the league minimum salary structure.
+
+**MEASURING INEQUALITY**
 
 A popular measure for assessing inequality among populations is the Gini coefficient. A Gini coefficient of 1.0 means complete income inequality in a population; a Gini coefficient of 0.0 means complete equality.
 
 We can apply the Gini coefficient to every baseball team from 1985-2016. It shows that team baseball salaries tend towards more inequality then less. Not only that, inequality is greater in the Moneyball era than before the Moneyball era (The Moneyball era beginning with the Oakland A's use of data science analysis in the 2002).
 
 ![MeanSalary](../images/ProjectCapstone/Gini.png)
-(Inequality is increasing in baseball is growing ).
+*Inequality is increasing in baseball*
+
+**MODELING INCOME INEQUALITY & BASEBALL WIN PERCENTAGES**
 
 Still, this increase in inequality proves to be a poor measure of a team's performance. Teams with higher inequality win World Series (1995 Atlanta Braves); teams with low lower inequality win World Series (1996 NY Yankees; 2014 SF Giants). Teams with middling salary distributions win World Series (2016 Cubs).
 
