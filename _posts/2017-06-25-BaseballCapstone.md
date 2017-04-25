@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Say It Ain't So: Income Inequality Is Having No Negative Impact on Baseball
+title: Say It Ain't So. Income Inequality Ain't Bad for Baseball
 ---
 
 Income inequality is a major public policy issue, at least for people on the left. The belief is that income inequality hurts everything from government to personal health.
@@ -27,13 +27,13 @@ Income inequality is not negatively influencing baseball outcomes, at least with
 
 SALARIES
 
+![MeanSalary](../images/ProjectCapstone/MeanSalary.png)
+
+
 Baseball salaries have been rising since 1985, as have the distribution of salaries.
 
-![MeanSalary](../images/ProjectCapstone/MeanSalary.png)
-(Mean baseball salaries are rising)
-
 ![MeanSalary](../images/ProjectCapstone/TeamSalary.png)
-(Salaries are rising, are the differences in total team salaries. Some teams pay more than others).
+
 
 Scholars agree that as salaries rose in baseball, so did inequality of pay among players. What do we mean by inequality? Yankee center fielder Jacoby Ellsbury hit nine home runs in 141 games and will earn $21 million in 2017. Sitting on the same bench as Ellsbury is Gary Sanchez, who will earn $558,000, even though he hit 20 home runs in 53 games the previous year.
 
