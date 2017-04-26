@@ -53,7 +53,7 @@ We can apply the Gini coefficient to every baseball team from 1985-2016. It show
 
 **MODELING INCOME INEQUALITY & BASEBALL WIN PERCENTAGES**
 
-Still, this increase in inequality proves to be a poor measure of a team's performance. Teams with higher inequality win World Series (1995 Atlanta Braves); teams with low lower inequality win World Series (1996 NY Yankees; 2014 SF Giants). Teams with middling salary distributions win World Series (2016 Cubs).
+Still, this increase in inequality proves to be a poor measure of a team's performance. Teams with higher inequality win World Series (1995 Atlanta Braves); teams with lower inequality win World Series (1996 NY Yankees; 2014 SF Giants). Teams with middling salary distributions win World Series (2016 Cubs).
 
 ![GiniWS](../images/ProjectCapstone/GiniWS.png)
 
