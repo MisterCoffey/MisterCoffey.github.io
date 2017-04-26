@@ -3,11 +3,11 @@ layout: post
 title: Say It Ain't So. Income Inequality 'Ain't' Bad for Baseball
 ---
 
-Income inequality is a major public policy issue, at least for people on the left. The belief is that income inequality hurts everything from government to personal health.
+Income inequality is a major public policy issue. The belief is that income inequality hurts everything from government to personal health.
 
 **INCOME INEQUALITY IN BASEBALL?**
 
-Baseball is a microcosm for all things American. Values of business, immigration, race, fairness, family, music, alcohol and cuisine often reveal themselves on baseball's verdant fields of play. It's a pastime where spectators can witness repeated failure in the absence of fear, and catch fleeting glimpses of the improbable on calm breezy days.
+Baseball is a microcosm for all things American. Values of business, immigration, race, fairness and family often reveal themselves on baseball's verdant fields of play. It's a pastime where spectators can witness repeated failure in the absence of fear, and catch fleeting glimpses of the improbable on calm breezy days.
 
 But do the dangers of income inequality also reveal themselves in major league baseball?
 
@@ -19,26 +19,26 @@ One theory is that income inequality has a negative influence on team performanc
 
 The other theory (Krissoff 2013) is that baseball inequality is having little impact on baseball team performance. This theory, based on the 2010 season, finds no relationship between baseball income inequality and team performance.
 
-This author's research based on statistics from the 2000 through 2016 seasons confirms the latter theory. Income inequality is not negatively influencing baseball teams' win percentages.
+This author's research based on statistics from the 2000 through 2016 seasons confirms the latter theory. Income inequality is not negatively influencing baseball, at least with respect to win percentages.
 
-In fact, adding measures of team salary inequality to classic SABRmetric measures of team performance provides no predictive improvement on those metrics.
+In fact, adding measures of team salary inequality to classic SABRmetric measures of team performance provides no predictive improvement when examinig a team's win percentages.
 
 **SALARIES**
 
 ![MeanSalary](../images/ProjectCapstone/MeanSalary.png)
-
+*(Average Baseball Salaries Are Rising)*
 
 Baseball salaries have been rising since 1985, as have the distribution of salaries.
 
-![MeanSalary](../images/ProjectCapstone/TeamSalary.png)
-
-
 Scholars agree that as salaries rose in baseball, so did inequality of pay among players. What do we mean by inequality? Yankee center fielder Jacoby Ellsbury hit nine home runs in 141 games and will earn $21 million in 2017. Sitting on the same bench as Ellsbury is Gary Sanchez, who will earn $558,000, even though he hit 20 home runs in 53 games the previous year.
+
+![MeanSalary](../images/ProjectCapstone/TeamSalary.png)
+*(Team Baseball Salaries Are Diverging)*
 
 Such examples of salary inequality are not the result of "unfairness" as much as they are the result of a highly regimented salary structure in baseball, governed by league minimums, arbitration, and free agency.
 
 ![GiniGary](../images/ProjectCapstone/GarySanchez.jpg)
-*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. Source: Wikipedia)*
+*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. He is earning a half million this year. Source: Wikipedia)*
 
 While Gary Sanchez appears underpaid, remember that Ellsbury has a World Series ring, and one season in which he batted .321, hit 32 home runs, and stole 39 bases. Gary Sanchez in contrast is a rookie who is subject to the league minimum salary structure.
 
@@ -86,12 +86,16 @@ In other words, team income inequality has no linear relationship with team wins
 
 
 
-Select Sources:
+**SELECT SOURCES**
 
-CNN,[this](http://money.cnn.com/2013/09/25/news/economy/income-inequality/) "How income inequality hurts America", 9/25/13
+[CNN,](http://money.cnn.com/2013/09/25/news/economy/income-inequality/) "How income inequality hurts America", 9/25/13
 
-R. TODD JEWELL, MICHAEL A. McPHERSON, and DAVID J. MOLINA, [this2](https://www.researchgate.net/profile/Michael_Mcpherson2/publication/5211498_Testing_the_Determinants_of_Income_Distribution_in_Major_League_Baseball/links/0c960521d6b7c56218000000.pdf)"Testing the Determinants of Income Distribution in Baseball," Economic Inquiry, 42 (3), July 2004, pp. 469-482.
+[R. TODD JEWELL, MICHAEL A. McPHERSON, and DAVID J. MOLINA,](https://www.researchgate.net/profile/Michael_Mcpherson2/publication/5211498_Testing_the_Determinants_of_Income_Distribution_in_Major_League_Baseball/links/0c960521d6b7c56218000000.pdf)"Testing the Determinants of Income Distribution in Baseball," Economic Inquiry, 42 (3), July 2004, pp. 469-482.
 
-R. Todd Jewell and David J. Molina, [this3](http://csyue.nccu.edu.tw/ch/The%20Effect%20of%20Salary%20Distribution%20on%20Production%20(MLB).pdf) "The Effect of Salary Distribution on Production: An Analysis of Major League Baseball", Economic Inquiry, Volume 42, Issue 3 July 2004, Pages 469–482
+[R. Todd Jewell and David J. Molina,](http://csyue.nccu.edu.tw/ch/The%20Effect%20of%20Salary%20Distribution%20on%20Production%20(MLB).pdf) "The Effect of Salary Distribution on Production: An Analysis of Major League Baseball", Economic Inquiry, Volume 42, Issue 3 July 2004, Pages 469–482
 
-Barry Krissoff, [this4](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) "Krissoff: Society and Baseball Face Rising Income Inequality,Baseball Research Journal, Spring 2013.
+[Barry Krissoff,](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) "Krissoff: Society and Baseball Face Rising Income Inequality,Baseball Research Journal, Spring 2013.
+
+[Baseball Reference](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) Yankee salary information.
+
+[Baseball Reference](http://www.baseball-reference.com/teams/NYY/2016.shtml) Yankee statistics.
