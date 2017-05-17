@@ -19,26 +19,25 @@ One theory is that income inequality has a negative influence on team performanc
 
 The other theory (Krissoff 2013) is that baseball inequality is having little impact on baseball team performance. This theory, based on the 2010 season, finds no relationship between baseball income inequality and team performance.
 
-This author's research based on statistics from the 2000 through 2016 seasons confirms the latter theory. Income inequality is not negatively influencing baseball, at least with respect to win percentages.
-
-In fact, adding measures of team salary inequality to classic SABRmetric measures of team performance provides no predictive improvement when examinig a team's win percentages.
+This author's research is based on statistics from 2000 through 2016, and it confirms the latter theory. Income inequality is not negatively influencing baseball, at least with respect to win percentages.
 
 **SALARIES**
 
 ![MeanSalary](../images/ProjectCapstone/MeanSalary.png)
+
 *(Average Baseball Salaries Are Rising)*
 
-Baseball salaries have been rising since 1985, as have the distribution of salaries.
+Baseball salaries have been rising since 1985, as have the distribution of those salaries. In 1985, there was a small spread in the salaries paid by different teams. By 2016, some teams were paying over $200,000,000 per season, while others were paying just over $50,000,000.
 
-Scholars agree that as salaries rose in baseball, so did inequality of pay among players. What do we mean by inequality? Yankee center fielder Jacoby Ellsbury hit nine home runs in 141 games and will earn $21 million in 2017. Sitting on the same bench as Ellsbury is Gary Sanchez, who will earn $558,000, even though he hit 20 home runs in 53 games the previous year.
+Scholars agree that as salaries rose in baseball, so did the inequality of pay among players. What do we mean by inequality? Yankee center fielder Jacoby Ellsbury hit nine home runs in 141 games in 2016, and will earn $21 million in 2017. Sitting on the same bench as Ellsbury is Gary Sanchez, who will earn $558,000, even though he hit 20 home runs in 53 games the previous year.
 
 ![MeanSalary](../images/ProjectCapstone/TeamSalary.png)
 *(Team Baseball Salaries Are Diverging)*
 
-Such examples of salary inequality are not the result of "unfairness" as much as they are the result of a highly regimented salary structure in baseball, governed by league minimums, arbitration, and free agency.
+Such examples of salary inequality are not the result of "unfairness" as much as they are the result of a highly regimented salary structure in baseball; salaries that are governed by league minimums, arbitration, and free agency.
 
 ![GiniGary](../images/ProjectCapstone/GarySanchez.jpg)
-*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. He is earning a half million this year. Source: Wikipedia)*
+*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. He will earn half million dollars in 2017. Source: Wikipedia)*
 
 While Gary Sanchez appears underpaid, remember that Ellsbury has a World Series ring, and one season in which he batted .321, hit 32 home runs, and stole 39 bases. Gary Sanchez in contrast is a rookie who is subject to the league minimum salary structure.
 
@@ -53,11 +52,11 @@ We can apply the Gini coefficient to every baseball team from 1985-2016. It show
 
 **MODELING INCOME INEQUALITY & BASEBALL WIN PERCENTAGES**
 
-Still, this increase in inequality proves to be a poor measure of a team's performance. Teams with higher inequality win World Series (1995 Atlanta Braves); teams with lower inequality win World Series (1996 NY Yankees; 2014 SF Giants). Teams with middling salary distributions win World Series (2016 Cubs).
+This increase in team salary inequality is poor measure of a team's performance. Teams with higher inequality win World Series (1995 Atlanta Braves); teams with lower inequality win World Series (1996 NY Yankees; 2014 SF Giants). Teams with middling salary distributions win World Series (2016 Cubs).
 
 ![GiniWS](../images/ProjectCapstone/GiniWS.png)
 
-Furthermore, there is no apparent pattern to the salary distributions when it comes to division wins. Year after year, teams with higher and lower Gini coefficients win their divisions.
+Furthermore, there is no apparent pattern to the salary distributions when it comes to division wins. Year after year, teams with relatively high and low Gini coefficients win their divisions.
 
 ![GiniDW](../images/ProjectCapstone/GiniDW.png)
 
@@ -65,15 +64,19 @@ When we plot team Gini coefficients against Win Percentage, we again see no appa
 
 ![GiniWins](../images/ProjectCapstone/wins.png)
 
-Though there appears to be a slight negative relationship between win percentage and Gini, the relationship is weak and is more likely the result of leverage created by a few distant points.
+Though there appears to be a slight negative relationship between win percentage and Gini, the relationship is weak and is likely the result of leverage created by a few distant points.
 
-If we create a model predicting win percentage using sabrmetric features such as run differential, and on-base percentage plus slugging (OPS), and add team salary and team Gini as additional features, we can build a strong model with a high R squared and a low mean squared error.
+A teams Gini coefficient does little to improve the predictive power of multivariate models utilizing traditional sabremetric features.
+
+For instance, a simple linear model predicting win percentage will perform well using features such as run differential, on-base percentage plus slugging (OPS). team salary, and team Gini.  
 
 ![Ginimodels](../images/ProjectCapstone/models.png)
 
-When we remove salary and Gini as features, the model remains strong. In fact the R squared improves slightly. If we run a model predicting win percentage using team Gini only, the model has a low R squared with little predictive value.  
+If we then remove salary and Gini as features, the model remains strong. In fact the R squared improves slightly. If we run a moel predicting win percentage using team Gini only, the model has a low R squared with little predictive value.  
 
 In other words, team income inequality has no linear relationship with team wins, and has no value as a feature when attempting to predict a baseball team's win percentage.
+
+This is not to say that income inequality is "good" for baseball. Income inequality simply is not "bad" for baseball. It's also a stretch to imput the findings of these models on the rest of society. Even the lowest paid major league player is rich in terms of income.
 
 
 
