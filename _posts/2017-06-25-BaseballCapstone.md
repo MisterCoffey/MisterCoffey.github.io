@@ -38,7 +38,7 @@ Such examples of salary inequality are not the result of "unfairness" as much as
 
 ![GiniGary](../images/ProjectCapstone/GarySanchez.jpg)
 
-*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. He will earn half million dollars in 2017. Source: Wikipedia)*
+*(Gary "The Krakken" Sanchez hit 20 home runs in his rookie year with the New York Yankees. He will earn half million dollars in 2017. Photo: Wikipedia)*
 
 While Gary Sanchez appears underpaid, remember that Ellsbury has a World Series ring, and one season in which he batted .321, hit 32 home runs, and stole 39 bases. Gary Sanchez in contrast is a rookie who is subject to the league minimum salary structure.
 
