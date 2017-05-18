@@ -19,7 +19,7 @@ One theory is that income inequality has a negative influence on team performanc
 
 The other theory (Krissoff 2013) is that baseball inequality is having little impact on baseball team performance. This theory, based on the 2010 season, finds no relationship between baseball income inequality and team performance.
 
-This author's research is based on statistics from 2000 through 2016, and it confirms the latter theory. Income inequality is having little impact on team win percentages.
+This author's research is based on statistics from 2000 through 2016, and it confirms the latter theory. Income inequality is having little impact on team ability to win.
 
 **SALARIES**
 
@@ -66,17 +66,17 @@ When we plot team Gini coefficients against Win Percentage, we again see no appa
 
 ![GiniWins](../images/ProjectCapstone/wins.png)
 
-*(Though there appears to be a slight negative relationship between win percentage and Gini, the relationship is weak and is likely the result of leverage created by a few distant points)*
+*(Though there appears to be a slight negative relationship between Win Percentage and Gini, the relationship is weak and is likely the result of leverage created by a few distant points)*
 
 A team's Gini coefficient does little to improve the predictive power of multivariate models utilizing traditional sabrmetric features.
 
-For instance, a simple linear model predicting win percentage will perform well using features such as run differential, on-base percentage plus slugging (OPS), team salary, and team Gini.  
+For instance, a simple linear model predicting Win Percentage will perform well using features such as run differential, on-base percentage plus slugging (OPS), team salary, and team Gini.  
 
 ![Ginimodels](../images/ProjectCapstone/models.png)
 
-If we then remove salary and Gini as features, the model remains strong. In fact the R squared improves slightly when we remove the salary and Gini features. If we run a model predicting win percentage using team Gini only, the model has a low R squared, and little predictive value.  
+If we then remove salary and Gini as features, the model remains strong. In fact the R squared improves slightly when we remove the salary and Gini features. If we run a model predicting Win Percentage using team Gini only, the model has a low R squared, and little predictive value.  
 
-In other words, team income inequality has no linear relationship with team wins, and has no value as a feature when attempting to predict a baseball team's win percentage.
+In other words, team income inequality has no linear relationship with team wins, and has no value as a feature when attempting to predict a baseball team's Win Percentage.
 
 This is not to say that income inequality is "good" for baseball. Income inequality simply is not "bad" for baseball. It is also a stretch to impute the findings of these models on the rest of society. Even the lowest paid major league player is rich in terms of income. Moreover, high major league performance will result in riches, adding greater incentives to perform than in other lines of work.
 
@@ -99,7 +99,7 @@ This is not to say that income inequality is "good" for baseball. Income inequal
 
 [R. Todd Jewell and David J. Molina,](http://csyue.nccu.edu.tw/ch/The%20Effect%20of%20Salary%20Distribution%20on%20Production%20(MLB).pdf) "The Effect of Salary Distribution on Production: An Analysis of Major League Baseball", Economic Inquiry, Volume 42, Issue 3 July 2004, Pages 469–482
 
-[Barry Krissoff,](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) "Krissoff: Society and Baseball Face Rising Income Inequality,Baseball Research Journal, Spring 2013.
+[Barry Krissoff,](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) "Krissoff: Society and Baseball Face Rising Income Inequality, Baseball Research Journal, Spring 2013.
 
 [Baseball Reference](https://sabr.org/latest/krissoff-society-and-baseball-face-rising-income-inequality) Yankee salary information.
 
