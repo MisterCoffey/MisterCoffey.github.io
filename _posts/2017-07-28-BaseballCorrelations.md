@@ -2,24 +2,31 @@
 layout: post
 title: Cool Baseball Correlations
 ---
+As discussed in a previous [post](https://mistercoffey.github.io/CoolCorrelations/), correlations describe the relationship between variables. They are often described as a single number called ***r***. An r = 1 or -1 describes the  the strongest possible linear correlation between two variables.
 
-Baseball has its share of cool correlations, the most famous of which is the extremely strong relationship between team wins, and run differential. Run differential is the difference between the runs scored by a team, and the runs allowed.
+Baseball has its share of cool correlations, the most famous of which is the extremely strong relationship between team wins and run differential.
 
-With an r of 0.934, the win/run differential relationship is so linear, that a team with a season run differential of 100 can expect to win over 90 games. In fact, this correlation is a basis for the “money ball” style of baseball management. Teams acquire players that will maximize this run differential with the expectation that it will in turn deliver a certain number of wins.
+Run differential is the difference between the runs scored by a team, and the runs allowed.  With an r of 0.934, the win/run differential relationship is so linear, that a team with a season run differential of 100 can expect to win 90+ games. In fact, this correlation is a basis for the “moneyball” style of baseball management. Teams acquire players that will maximize this run differential with the expectation that it will in turn deliver a certain number of wins.
+
 ![Wins Runs](../images/Correlations/WinsRuns.png)
 
 *(The strong linear relationship between wins and run differential.)*
-While conducting my own research using the [Sean Lahman](http://www.tylervigen.com/spurious-correlations), I discovered a few unexpected correlations. Though none inspire the same wonderment as the correlation between divorce in [Maine](http://www.tylervigen.com/spurious-correlations) and the consumption of margarine (r=0.99), some made me scratch my head and think deeply about the game of baseball, and its alter ego, life.  
+
+While conducting my own research using the [Sean Lahman](http://seanlahman.com/), I discovered a few unexpected correlations. Though none inspire the same wonderment as the correlation between divorce in [Maine](http://www.tylervigen.com/spurious-correlations) and the consumption of margarine (r=0.99), some made me scratch my head and think deeply about the game of baseball, and its alter ego, life.  
 
 **Baseball Correlation #1: You Have to Be in It to Lose It**
 
-In baseball there is a strong positive correlation between success and failure.  
+In baseball there is a strong positive relationship between success and failure.  
 
 A strike out is probably a player’s best measurement of failure. A batter walks up to the plate. He swings, misses, and walks back to the dugout with a head hanging low. Or worse, a player stands motionless as the pitcher delivers a strike, in which case, the player walks back with a head hanging even lower.  
 
-This very act of striking out is highly correlated with typical measures of player success, such as hits (0.85), home runs (r = 0.82), and Runs Batted In ("RBI")(r = 0.86).
+This very act of striking out is highly correlated with typical measures of player success, such as hits (r = 0.85), home runs (r = 0.82), and Runs Batted In ("RBI")(r = 0.86).
 
 In other words, the very act of trying and failing has a relationship with trying and succeeding.  Not surprisingly, the greatest failures in terms of strike outs are also among the most [recognizable names ](https://www.baseball-reference.com/leaders/SO_career.shtml) in baseball: Reggie Jackson (No. 1); Alex Rodriguez (No. 5); Sammy Sosa (No. 4); Derek Jeter (No. 14); and Mickey Mantle (No. 31).
+
+![Reggie](../images/Correlations/Reggie.png)
+
+***(Nothing describes the relationship between home runs and strike outs better than the career of Reggie Jackson. His most prolific years in terms of home runs were also his most prolific in terms of strike outs.)*** 
 
 Break down the relationship between home runs and strike outs and you will see why.
 
