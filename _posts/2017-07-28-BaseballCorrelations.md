@@ -10,7 +10,7 @@ Run differential is the difference between the runs scored by a team, and the ru
 
 ![Wins Runs](../images/Correlations/WinsRuns.png)
 
-***(The strong linear relationship between wins and run differential)***
+*(The strong linear relationship between wins and run differential)*
 
 While conducting my own research using the [Sean Lahman](http://seanlahman.com/), I discovered a few unexpected correlations. Though none inspire the same wonderment as the correlation between divorce in [Maine](http://www.tylervigen.com/spurious-correlations) and the consumption of margarine (r=0.99), some made me scratch my head and think deeply about the game of baseball, and its alter ego, life.  
 
@@ -26,7 +26,7 @@ In other words, the very act of trying and failing has a relationship with tryin
 
 ![Reggie](../images/Correlations/Reggie.png)
 
-***(Nothing describes the relationship between home runs and strike outs better than the career of Reggie Jackson. His most prolific years in terms of home runs were also his most prolific in terms of strike outs)***
+*(Nothing describes the relationship between home runs and strike outs better than the career of Reggie Jackson. His most prolific years in terms of home runs were also his most prolific in terms of strike outs)*
 
 Break down the relationship between home runs and strike outs and you will see why.
 
@@ -52,7 +52,7 @@ Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/reg
 
 ![Papi](../images/Correlations/BigPapi.png)
 
-***(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)***
+*(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)*
 
 **Cool Baseball Correlation #2: Attendance Is in the Stars**
 
@@ -68,7 +68,7 @@ Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in 
 
 ![A-Rod](../images/Correlations/ARod.png)
 
-***(A-Rod’s home run production was nearly parabolic. The uptick towards the end occurred after A-Rod's long suspension from baseball. Some speculated that the rest helped A-Rod’s home run production, putting it on par with his performance 10 years prior)***
+*(A-Rod’s home run production was nearly parabolic. The uptick towards the end occurred after A-Rod's long suspension from baseball. Some speculated that the rest helped A-Rod’s home run production, putting it on par with his performance 10 years prior)*
 
 As A-Rod aged, and his home run production declined, as demonstrated by the above chart. By 2008, A-Rod was earning over $20 million a year, even though his home run production was less than it was 10 years prior.
 
