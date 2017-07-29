@@ -78,7 +78,7 @@ Of course, this is just a theory.
 
 There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hits. A sacrifice fly typically occurs when an outfielder catches a ball, and a base runner scores on the play.
 
-![Ripken](../images/Correlations/Ripken.png)
+![Ripken](../images/Correlations/Ripken.jpg)
 
 ***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128))***
 
