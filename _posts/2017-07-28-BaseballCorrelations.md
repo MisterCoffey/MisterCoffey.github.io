@@ -50,7 +50,9 @@ So why is there no correlation between speed and pay? When I asked my learned fr
 
 Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/register/player.fcgi?id=peraza004jos) of the Cincinnati Reds with seasoned veteran [David Ortiz](https://www.baseball-reference.com/players/o/ortizda01.shtml) (“Big Papi”) of the Boston Red Sox.  Peraza earned the league minimum in 2016, and stole 21 bases.  In contrast, Big Papi earned $16 million, but stole a paltry two bases. Therefore, if you want to get paid, it probably pays to stick around long enough in baseball to slow down.
 
-![Papi](../images/Correlations/BigPapi.png)***(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)***
+![Papi](../images/Correlations/BigPapi.png)
+
+***(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)***
 
 **Cool Baseball Correlation #2: Attendance Is in the Stars**
 
@@ -78,7 +80,7 @@ Of course, this is just a theory.
 
 There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hits. A sacrifice fly typically occurs when an outfielder catches a ball, and a base runner scores on the play.
 
-![Ripken](../images/Correlations/Ripken.jpg)
+![Ripken](../images/Correlations/Ripken.jpeg)
 
 ***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128))***
 
