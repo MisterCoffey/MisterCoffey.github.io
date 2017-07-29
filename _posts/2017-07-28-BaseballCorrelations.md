@@ -70,9 +70,9 @@ Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in 
 
 ***(A-Rod’s home run production was nearly parabolic. The uptick towards the end occurred after A-Rod's long suspension from baseball. Some speculated that the rest helped A-Rod’s home run production, putting it on par with his performance 10 years prior)***
 
-As A-Rod aged, and his home run production declined, as demonstrated by the above chart. By 2005, A-Rod was earning over $20 million a year, even though his home run production was less than it was 10 years prior.
+As A-Rod aged, and his home run production declined, as demonstrated by the above chart. By 2008, A-Rod was earning over $20 million a year, even though his home run production was less than it was 10 years prior.
 
-The one thing A-Rod did have was name recognition. He was a star, and fans were showing up tin 2012 to see the player who hit 57 home runs in 2002. Fans were not showing up to 2002 to see A-Rod hit 18 home runs.
+The one thing A-Rod did have was name recognition. He was a star, and fans were showing up in 2012 to see the player who hit 57 home runs in 2002.
 
 Of course, this is just a theory.
 
