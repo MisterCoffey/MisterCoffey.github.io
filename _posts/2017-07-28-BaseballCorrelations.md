@@ -2,7 +2,7 @@
 layout: post
 title: Cool Baseball Correlations
 ---
-As discussed in a previous [post](https://mistercoffey.github.io/CoolCorrelations/), correlations describe the relationship between variables, AND are often described as a single number called ***r***. An r = 1 or -1 describes the  the strongest possible linear correlation between two variables. An r = 0 describes the weakest possible relationship.
+As discussed in a previous [post](https://mistercoffey.github.io/CoolCorrelations/), correlations describe the relationship between variables, and are often described as a single number called ***r***. An r = 1 or -1 describes the  the strongest possible linear correlation between two variables. An r = 0 describes the weakest possible relationship.
 
 Baseball has its share of cool correlations, the most famous of which is the extremely strong relationship between team wins and run differential.
 
