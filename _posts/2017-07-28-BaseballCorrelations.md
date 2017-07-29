@@ -50,9 +50,7 @@ So why is there no correlation between speed and pay? When I asked my learned fr
 
 Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/register/player.fcgi?id=peraza004jos) of the Cincinnati Reds with seasoned veteran [David Ortiz](https://www.baseball-reference.com/players/o/ortizda01.shtml) (“Big Papi”) of the Boston Red Sox.  Peraza earned the league minimum in 2016, and stole 21 bases.  In contrast, Big Papi earned $16 million, but stole a paltry two bases. Therefore, if you want to get paid, it probably pays to stick around long enough in baseball to slow down.
 
-![Papi](../images/Correlations/BigPapi.png)
-
- ***(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)***
+![Papi](../images/Correlations/BigPapi.png)***(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)***
 
 **Cool Baseball Correlation #2: Attendance Is in the Stars**
 
@@ -62,7 +60,7 @@ Fan attendance has a higher correlation with team salary (r= 0.73)  than it does
 
 Puzzling. My initial thought was that a strong relationship would exist between player salary and home runs, and this would in turn explain the relationship between attendance and salary. This is not the case: The correlation between salary and home runs is weak to moderate.
 
-My best theory is that fans love stars.  While home runs can make a player a star, home runs wanes as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced home run production.
+My best theory is that fans love stars.  While home runs can make a player a star, home runs wane as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced home run production.
 
 Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in the late 1990s, leading many to conclude that he was the best player in baseball.  A-Rod’s performance in turn led to an historic contracts with the Rangers and Yankees that made him the highest paid player in baseball.  Indeed, [*Sports Illustrated*](https://www.si.com/mlb/2016/08/11/new-york-yankees-alex-rodriguez-contract)vreported that the Yankees paid A-Rod close to $320 million between 2004 and 2016.
 
