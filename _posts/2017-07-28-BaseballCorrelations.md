@@ -2,7 +2,7 @@
 layout: post
 title: Cool Baseball Correlations
 ---
-As discussed in a previous [post](https://mistercoffey.github.io/CoolCorrelations/), correlations describe the relationship between variables. They are often described as a single number called ***r***. An r = 1 or -1 describes the  the strongest possible linear correlation between two variables.
+As discussed in a previous [post](https://mistercoffey.github.io/CoolCorrelations/), correlations describe the relationship between variables, AND are often described as a single number called ***r***. An r = 1 or -1 describes the  the strongest possible linear correlation between two variables. An r = 0 describes the weakest possible relationship.
 
 Baseball has its share of cool correlations, the most famous of which is the extremely strong relationship between team wins and run differential.
 
@@ -82,7 +82,7 @@ There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hi
 
 ![Ripken](../images/Correlations/Ripken.jpeg)
 
-***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128))***
+***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128). Picture: Wikipedia)***
 
 A sacrifice hit is similar except that the batter typically bunts, and advances a base runner. The runner does not need to score.
 
