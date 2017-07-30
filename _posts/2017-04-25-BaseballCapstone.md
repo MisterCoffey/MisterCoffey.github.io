@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Say It Ain't So. Income Inequality 'Ain't' Bad for Baseball
+title: Say It Ain't So.
 ---
+**Income Inequality 'Ain't' Bad for Baseball**
 
 Income inequality is a major public policy issue. The belief is that income inequality hurts everything from government to personal health.
 
