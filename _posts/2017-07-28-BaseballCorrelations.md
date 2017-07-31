@@ -65,7 +65,7 @@ Fan attendance has a higher correlation with team salary (r= 0.73)  than it does
 
 Puzzling. My initial thought was that a strong relationship would exist between player salary and home runs, and this would in turn explain the relationship between attendance and salary. This is not the case: The correlation between salary and home runs is weak to moderate.
 
-My best theory is that fans love stars.  While home runs can make a player a star, home runs wane as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced home run production, while stardom might not.
+My best theory is that fans love stars.  While home runs can make a player a star, home runs wane as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced from home run production, while stardom might not. Babe Ruth is as much a star today as he was when he 60 home runs in 1927.
 
 Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in the late 1990s, leading many to conclude that he was the best player in baseball.  A-Rod’s performance in turn led to an historic contracts with the Rangers and Yankees that made him the highest paid player in baseball.  Indeed, [*Sports Illustrated*](https://www.si.com/mlb/2016/08/11/new-york-yankees-alex-rodriguez-contract) reported that the Yankees paid A-Rod close to $320 million between 2004 and 2016.
 
