@@ -65,17 +65,17 @@ Fan attendance has a higher correlation with team salary (r= 0.73)  than it does
 
 Puzzling. My initial thought was that a strong relationship would exist between player salary and home runs, and this would in turn explain the relationship between attendance and salary. This is not the case: The correlation between salary and home runs is weak to moderate.
 
-My best theory is that fans love stars.  While home runs can make a player a star, home runs wane as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced home run production.
+My best theory is that fans love stars.  While home runs can make a player a star, home runs wane as players age. Many home run hitters have long term contracts that keep the level of pay somewhat constant even though performance may be in decline. The rate of pay therefore becomes divorced home run production, while stardom might not.
 
-Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in the late 1990s, leading many to conclude that he was the best player in baseball.  A-Rod’s performance in turn led to an historic contracts with the Rangers and Yankees that made him the highest paid player in baseball.  Indeed, [*Sports Illustrated*](https://www.si.com/mlb/2016/08/11/new-york-yankees-alex-rodriguez-contract)vreported that the Yankees paid A-Rod close to $320 million between 2004 and 2016.
+Look at the career of Alex Rodriguez (“A-Rod”). A-Rod’s home runs rose in the late 1990s, leading many to conclude that he was the best player in baseball.  A-Rod’s performance in turn led to an historic contracts with the Rangers and Yankees that made him the highest paid player in baseball.  Indeed, [*Sports Illustrated*](https://www.si.com/mlb/2016/08/11/new-york-yankees-alex-rodriguez-contract) reported that the Yankees paid A-Rod close to $320 million between 2004 and 2016.
 
 ![A-Rod](../images/Correlations/ARod.png)
 
-*(A-Rod’s home run production was nearly parabolic. The uptick towards the end occurred after A-Rod's long suspension from baseball. Some speculated that the rest helped A-Rod’s home run production, putting it on par with his performance 10 years prior)*
+*(A-Rod’s home run production rose quickly then declined slowly. The uptick towards the end occurred after A-Rod's long suspension from baseball. Some speculated that the rest helped A-Rod’s home run production, putting it on par with his performance 10 years prior)*
 
-As A-Rod aged, and his home run production declined, as demonstrated by the above chart. By 2008, A-Rod was earning over $20 million a year, even though his home run production was less than it was 10 years prior.
+As A-Rod aged, his home run production declined, as demonstrated by the above chart. By 2008, A-Rod was earning over $20 million a year, even though his home run production was less than it was 10 years prior.
 
-The one thing A-Rod did have was name recognition. He was a star, and fans were showing up in 2012 to see the player who hit 57 home runs in 2002.
+The one thing A-Rod did have was name recognition. He was a star, both famous and infamous. Fans were still showing up in 2012 to see the player who hit 57 home runs in 2002.
 
 Of course, this is just a theory.
 
@@ -85,9 +85,9 @@ There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hi
 
 ![Ripken](../images/Correlations/Ripken.jpeg)
 
-***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds the American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128). Picture: Wikipedia)***
+*(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds the American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128). Picture: Wikipedia)*
 
-A sacrifice hit is similar except that the batter typically bunts, and advances a base runner. The runner does not need to score.
+A sacrifice hit is similar except that the batter typically bunts and advances a base runner. The runner does not need to score.
 
 Aside from minor scorekeeping differences, there is a big difference between these two sacrifices: Sacrifice Flies are strongly correlated with home runs, while sacrifice hits are not. In fact, bunts have a very weak negative correlation with home runs. (r = - 0.14).
 
