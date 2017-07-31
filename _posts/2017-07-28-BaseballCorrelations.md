@@ -85,7 +85,7 @@ There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hi
 
 ![Ripken](../images/Correlations/Ripken.jpeg)
 
-***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128). Picture: Wikipedia)***
+***(Most know Cal Ripken, Jr. for his record 2,632 consecutive games played. He also holds the American League record for most career sacrifice flies (127). The great Hank Aaron holds the National League record (113) while [Eddie Murray](http://www.baseball-almanac.com/recbooks/sacrifice_flies_records.shtml) holds the MLB record (128). Picture: Wikipedia)***
 
 A sacrifice hit is similar except that the batter typically bunts, and advances a base runner. The runner does not need to score.
 
