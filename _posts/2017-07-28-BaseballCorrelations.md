@@ -29,7 +29,7 @@ In other words, the very act of trying and failing has a relationship with tryin
 
 ![Reggie](../images/Correlations/Reggie.png)
 
-*(Nothing describes the relationship between home runs and strike outs better than the career of Reggie Jackson. His most prolific years in terms of home runs were also his among most prolific in strike outs)*
+*(Nothing describes the relationship between home runs and strike outs better than the career of Reggie Jackson. His most prolific years in terms of home runs were also among his most prolific in strike outs)*
 
 Break down the relationship between home runs and strike outs and you will see why.
 
@@ -51,7 +51,7 @@ Again, this does not prove a causal point. Sluggish base running does not result
 
 So why is there no correlation between speed and pay? When I asked my learned friends on social media, the consensus was that speed is age related, and younger players are simply paid less than seasoned veterans. Indeed, many are subject to the Major League Baseball League [minimum salary](https://www.statista.com/statistics/256187/minimum-salary-of-players-in-major-league-baseball/), which was $507 million in 2016.
 
-Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/register/player.fcgi?id=peraza004jos) of the Cincinnati Reds with seasoned veteran [David Ortiz](https://www.baseball-reference.com/players/o/ortizda01.shtml) (“Big Papi”) of the Boston Red Sox.  Peraza earned the league minimum in 2016, and stole 21 bases.  In contrast, Big Papi earned $16 million, but stole a paltry two bases. Therefore, if you want to get paid, it probably pays to stick around long enough in baseball to slow down.
+Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/register/player.fcgi?id=peraza004jos) of the Cincinnati Reds with seasoned veteran [David Ortiz](https://www.baseball-reference.com/players/o/ortizda01.shtml) (“Big Papi”) of the Boston Red Sox.  In 2016, Peraza earned the league minimum and stole 21 bases.  In contrast, Big Papi earned $16 million that year, but stole a paltry two bases. Therefore, if you want to get paid, it probably pays to stick around long enough in baseball to slow down.
 
 ![Papi](../images/Correlations/BigPapi.png)
 
