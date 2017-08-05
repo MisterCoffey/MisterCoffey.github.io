@@ -43,6 +43,10 @@ In other words, the old adage -- you need to risk failure to succeed— holds ve
 
 Speed is a cherished skill in most sports. Baseball is no exception. The trouble is that speed has no correlation with salary in baseball.
 
+![adj](../images/Correlations/ep.png)
+
+*(Code for adjusting salary for inflation using easymoney)*
+
 Stolen bases and triples are the hallmarks of speed in baseball. In fact, both are correlated (r = 0.64). When we examine speed and salary for individual players from 1997 through 2016, we find that triples have almost no correlation with salary (r=0.03). Stolen bases have a slightly higher correlation (r= 0.07), but it’s still extremely low.
 
 ![Salary Speed](../images/Correlations/SB.png)
