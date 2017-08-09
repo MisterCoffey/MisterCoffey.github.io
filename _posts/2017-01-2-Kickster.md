@@ -11,7 +11,7 @@ Want to launch a successful Kickstarter campaign? Follow these tips and you are 
 
 [Kickerstarter](https://www.kickstarter.com) is a popular site for raising money for creative projects. People pitch their film or music project to the Kickstarter community, set a monetary goal and hope for the best. Sometimes the campaigns are successful, other times they are not.
 
-I prepared this analysis in R as part of a fellowship in data science at General Assembly. The data contained information on successful and unsuccessful campaigns from 2009 t0 2012, including the category of project, the timeframe, funding information, and location among other things.
+I prepared this analysis in R as part of a fellowship in data science at General Assembly. The data contained information on successful and unsuccessful campaigns from 2009 to 2012, including the category of project, the timeframe, funding information, and location among other things.
 
 **Kickstarter Tip No. 1: Keep It Short**
 
@@ -19,7 +19,7 @@ Your Kickstarter campaign should run about a month. This is because successful c
 
 This difference in the average duration of successful and unsuccessful campaigns is statistically significant.  Whether we implement a frequentist Welch's t-test (p-value = 2.2e-16), or utilize Bayesian hypothesis test (Bayes Factor (BF[H2:H1]) = 3.054464e+280), the length of a successful campaign is not equal to the length of the unsuccessful campaign. In fact, successful campaigns are demonstrably shorter.
 
-![Duration](../images/kickstarter/GADur.png)
+![Duration](../images/kickstarter/GAdur.png)
 
 My advice is to use the median duration of a successful campaign as a guide -- 31 days -- as the data is not normally distributed and is slightly right skewed, as demonstrated by the above graph.
 
