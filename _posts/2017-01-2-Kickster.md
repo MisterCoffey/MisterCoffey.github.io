@@ -90,3 +90,11 @@ Our algorithm tells us that *Love Found* has a 85 percent probability of success
 ![model](../images/Kickstarter/Renegade.png)
 
 Our algorithm tells us that *Renegade Repo* has a 3.7 percent probability of success. *Renegade Repo* would have 94 percent probability of success if it: 1. lowered its goal to $3,000; 2. greatly increased its number of fundraising levels; 3. lowered its duration to 30 days; and 4. ended the campaign in early May.
+
+**Modeling Risks**
+
+There are a few risks associated with out dataset.
+
+While our Kickstarter prediction model is accurate on a test set, it is not without its risks. The model sees little downside to increasing the funding levels. If one predicts a campaign and adds 30 funding levels, the model increasing the probability of success. The reality is that dozens of funding levels probably adds clutter and confusion to a campaign.
+
+Moreover, the model trained on data from 2009-2011. Tastes cn change every few years. So can website demographics. The model does not account for potential changes in taste and traffic. This of course will require more data.
