@@ -19,7 +19,7 @@ Your Kickstarter campaign should run about a month. This is because successful c
 
 This difference in the average duration of successful and unsuccessful campaigns is statistically significant.  Whether we implement a frequentist Welch's t-test (p-value = 2.2e-16), or utilize Bayesian hypothesis test (Bayes Factor (BF[H2:H1]) = 3.054464e+280), the length of a successful campaign is not equal to the length of the unsuccessful campaign. In fact, successful campaigns are demonstrably shorter.
 
-![Duration](../images/Kickstarter/GADur.png)
+![Duration](../images/kickstarter/GADur.png)
 
 My advice is to use the median duration of a successful campaign as a guide -- 31 days -- as the data is not normally distributed and is slightly right skewed, as demonstrated by the above graph.
 
@@ -31,7 +31,7 @@ If you are to launch a 30 day campaign, consider launching it on April 2nd or 3r
 
 Furthermore, the first & second of the month are the most popular funding days. By launching at the beginning of April, you can take advantage of this phenomenon. By avoiding a May launch, you avoid ending your campaign in June, which is unpopular.
 
-![Months](../images/Kickstarter/GAmonths.png)
+![Months](../images/kickstarter/GAmonths.png)
 
 *(May is the best month to end a campaign; June is the worst)*
 
@@ -51,7 +51,7 @@ Film, music, design and game projects attract the most funding on Kickstarter, b
 
 Our dataset contains over $50m in successful film campaigns, and over $36m in successful music projects. Though film attracts the most funding, it is less successful than  has the higher rate of success than film. Though 62% of music campaigns are successful, less than half of all film (47%), design (41%) & game (36%) campaigns are successful.
 
-![Catgories](../images/Kickstarter/GAPlot.png)
+![Catgories](../images/kickstarter/GAPlot.png)
 
 *(Most Kickstarter campaigns are film related, though there are more successful music related campaigns than film. Notwithstanding the lower film success rate, film projects still raise more money than music projects. Notice the success rate of dance related campaigns)*
 
@@ -71,7 +71,7 @@ We model uses logistic regression and simply assesses the probability of whether
 
 We can train a decent the model on the following variables: 1. The category and subcategory of the campaign; 2. The funding goal; 3. the number of fundraising levels; 4. the duration of the campaign; 5. the day the campaign succeeded; and 6. the month the campaign achieved succeeded.
 
-![model](../images/Kickstarter/Model.png)
+![model](../images/kickstarter/Model.png)
 
 *(R code for logistic regression model. This model performed 68 percent accuracy on a test set)*
 
@@ -81,13 +81,13 @@ Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily s
 
 *Love Found* is an example of a project with high probability of success. It is a dance project, which always have a high probability of success. The campaign is 30 days in length and sets a reasonable goal of $6,000, with 13 fundraising levels. If you will recall, anything over eight levels is preferable.
 
-![model](../images/Kickstarter/Love.png)
+![model](../images/kickstarter/Love.png)
 
 Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probality of success (94 percent) had it set a goal of $3,000 with more levels, and ended in May.
 
 *Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. it is a video project, which fail more often than not; 3. the fundraising goal is high at $65,000; and 4. it sets fewer than eight fundraising levels.
 
-![model](../images/Kickstarter/Renegade.png)
+![model](../images/kickstarter/Renegade.png)
 
 Our algorithm tells us that *Renegade Repo* has a 3.7 percent probability of success. *Renegade Repo* would have 94 percent probability of success if it: 1. lowered its goal to $3,000; 2. greatly increased its number of fundraising levels; 3. lowered its duration to 30 days; and 4. ended the campaign in early May.
 
