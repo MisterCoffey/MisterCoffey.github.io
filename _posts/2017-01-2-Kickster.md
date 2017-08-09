@@ -85,16 +85,16 @@ Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily s
 
 Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probality of success (94 percent) had it set a goal of $3,000 with more levels, and ended in May.
 
-*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. it is a video project, which fail more often than not; 3. the fundraising goal is high at $65,000; and 4. it sets fewer than eight fundraising levels.
+*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project, which fail more often than not; 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
 
 ![model](../images/kickstarter/Renegade.png)
 
-Our algorithm tells us that *Renegade Repo* has a 3.7 percent probability of success. *Renegade Repo* would have 94 percent probability of success if it: 1. lowered its goal to $3,000; 2. greatly increased its number of fundraising levels; 3. lowered its duration to 30 days; and 4. ended the campaign in early May.
+Our algorithm tells us that *Renegade Repo* has a 3.7 percent probability of success. *Renegade Repo* would have 94 percent probability of success if it: 1. Lowered its goal to $3,000; 2. Increased its number of fundraising levels; 3. Lowered its duration to 30 days; and 4. Ended the campaign in early May.
 
 **Modeling Risks**
 
 There are a few risks associated with out dataset.
 
-While our Kickstarter prediction model is accurate on a test set, it is not without its risks. The model sees little downside to increasing the funding levels. If one predicts a campaign and adds 30 funding levels, the model increasing the probability of success. The reality is that dozens of funding levels probably adds clutter and confusion to a campaign.
+While our Kickstarter prediction model is accurate on a test set, it is not without its risks. The model sees little downside to increasing the funding levels. If one predicts a campaign and adds 30 funding levels, the model increasing the probability of success. The reality is that dozens of funding levels probably add clutter and confusion to a campaign.
 
-Moreover, the model trained on data from 2009-2011. Tastes cn change every few years. So can website demographics. The model does not account for potential changes in taste and traffic. This of course will require more data.
+Moreover, the model trained on data from 2009-2011. Tastes can change every few years. So can website demographics. The model does not account for potential changes in taste and traffic. To address this risk, we will need more data.
