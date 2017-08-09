@@ -1,6 +1,6 @@
 ---
 layout: post
-title: UPDATE: Launching a Successful Kickstarter Campaign
+title: "UPDATE: Launching a Successful Kickstarter Campaign"
 ---
 
 **Initial Modeling Success**
