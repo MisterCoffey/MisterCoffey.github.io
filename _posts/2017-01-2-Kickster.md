@@ -3,7 +3,7 @@ layout: post
 title: Launching a Successful Kickstarter Campaign
 ---
 
-**When in Doubt Dance**
+**Dance, Dance, Dance**
 
 Want to launch a successful Kickstarter campaign? Follow these tips and you are more likely to succeed than not.
 
@@ -33,17 +33,17 @@ Furthermore, the first & second of the month are the most popular funding days. 
 
 ![Months](../images/kickstarter/GAmonths.png)
 
-*(May is the best month to end a campaign; June is the worst)*
+*(May is the best month to end a Kickstarter campaign; June is the worst)*
 
 The reasons for the May/June discrepancy are beyond the musings of this post. One thought is that tax refunds put people in a more charitable mood. Another is that June is the beginning of summer and people are funding vacations over Kickstarters. I could not tease a good theory out of the data.  
 
-**Kickstarter Tip No. 3: Lower Your Expectations"**
+**Kickstarter Tip No. 3: Lower Your Expectations**
 
 Successful campaigns set lower goals. A goal of $3,000 is a terrific place to start as this is the median for successful campaigns. Unsuccessful campaigns in contrast have a higher median of $5,000, with an mean of $16,351.
 
 **Kickstarter Tip No. 4: The More Levels the Better**
 
-Kickstarter allows participants to set different levels of support. Successful campaigns have a mean of eight (8) and median of seven (7) fundraising levels. The distribution is extremely right skewed, making the median a good place to set levels. There is no downside to setting a few more levels, so feel free to set ten (10) if you think it helps.
+Kickstarter allows participants to set different levels of support. Successful campaigns have a mean of eight (8) and median of seven (7) fundraising levels. The distribution is extremely right skewed, making the median a good place to set levels. Feel free to set ten (10) or more levels if you think it helps.
 
 **Kickstarter Tip No. 5: Money Loves Music, Movies, Design & Games**
 
@@ -53,7 +53,7 @@ Our dataset contains over $50m in successful film campaigns, and over $36m in su
 
 ![Catgories](../images/kickstarter/GAPlot.png)
 
-*(Most Kickstarter campaigns are film related, though there are more successful music related campaigns than film. Notwithstanding the lower film success rate, film projects still raise more money than music projects. Notice the success rate of dance related campaigns)*
+*(Most Kickstarter campaigns are film related, though the success rate is higher music than film. Film projects still raise more money than music projects. Notice the success rate of dance related campaigns)*
 
 **Kickstarter Tip No. 6: Publish and Perish**
 
@@ -69,7 +69,7 @@ We can build a simple algorithm that predicts the potential success of a Kicksta
 
 We model uses logistic regression and simply assesses the probability of whether whether a campaign will successful or not.
 
-We can train a decent the model on the following variables: 1. The category and subcategory of the campaign; 2. The funding goal; 3. the number of fundraising levels; 4. the duration of the campaign; 5. the day the campaign succeeded; and 6. the month the campaign achieved succeeded.
+We can train a decent model on the following variables: 1. The category and subcategory of the campaign; 2. The funding goal; 3. The number of fundraising levels; 4. The duration of the campaign; 5. The day the campaign succeeded; and 6.The month the campaign achieved succeeded.
 
 ![model](../images/kickstarter/Model.png)
 
@@ -79,11 +79,11 @@ Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily s
 
 ***Love Found***
 
-*Love Found* is an example of a project with high probability of success. It is a dance project, which always have a high probability of success. The campaign is 30 days in length and sets a reasonable goal of $6,000, with 13 fundraising levels. If you will recall, anything over eight levels is preferable.
+*Love Found* is an example of a project with high probability of success. It is a dance related, and dance always has a high probability of success. The campaign is 30 days in length and sets a reasonable goal of $6,000, with 13 fundraising levels. If you will recall, at least eight levels is preferable.
 
 ![model](../images/kickstarter/Love.png)
 
-Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probality of success (94 percent) had it set a goal of $3,000 with more levels, and ended in May.
+Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probability of success (94 percent) had it ended in May, and set a goal of $3,000 with more levels.
 
 *Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project, which fail more often than not; 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
 
