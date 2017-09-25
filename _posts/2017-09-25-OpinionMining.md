@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Machine Learning Is a Speechwriter's New Best Friend"
+title: "Machine Learning: A Speechwriter's New Best Friend"
 ---
 
-**Opinion Mining Shakespeare, Lincoln and Lou Gehrig**
+**Opinion Mining Shakespeare, Lincoln and Gehrig**
 
 
 On July 4, 1939, Lou Gehrig delivered what is considered one of the greatest speeches in US history. What made this speech so memorable? It turns out machine learning can give us a number of insights.
@@ -47,7 +47,7 @@ Though technically not a speech, Hamlet’s soliloquy has among the most recogni
 
 Let’s first reduce Hamlet’s soliloquy to a word cloud.
 
-![HamletCloud](../images/Gehrig/hamletcloud.png)
+![HamletCloud](../images/Gehrig/hamletcloud.jpeg)
 (*The Hamlet word cloud suggests mixed emotions about life and death*)
 
 A word cloud is a visualization technique that provides a cursory analysis of text. The bigger the word in a word cloud, the more the word is used.  
