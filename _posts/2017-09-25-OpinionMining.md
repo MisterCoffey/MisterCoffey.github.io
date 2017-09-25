@@ -47,14 +47,14 @@ Though technically not a speech, Hamlet’s soliloquy has among the most recogni
 
 Let’s first reduce Hamlet’s soliloquy to a word cloud.
 
-![HamletCloud](../images/Gehrig/hamletcloud.jpeg)
+![HamletCloud](../images/Gehrig/hamletcloud.png)
 (*The Hamlet word cloud suggests mixed emotions about life and death*)
 
 A word cloud is a visualization technique that provides a cursory analysis of text. The bigger the word in a word cloud, the more the word is used.  
 
 Analysis of Hamlet’s word cloud gives us some insight into the temperament of his soliloquy. The words ‘death’, ‘die’, and sleep jump out from the text, and these words to some extent capture the mood of Hamlet’s soliloquy. It’s easy to sense that the mood is depressing, but the word cloud does not give us a detailed analysis of the emotions. Is it more positive than negative? Do the emotions express more anger than fear, more joy than sorrow?
 
-![HamletVader](../images/Gehrig/vaderhamlet.png)
+![HamletVader](../images/Gehrig/hamletvader.png)
 (*VADER Analysis of Hamlet’s soliloquy. Look at the compound meaning of the passage; it is negative*)
 
 Sentiment analysis can readily dissect Hamlet’s emotions. Using VADER sentiment analysis and few lines of code*, we can explore the complex emotions of Hamlet’s soliloquy. As demonstrated by the visualization below, Hamlet’s emotions are for the most part neutral, meaning that the words have neither positive nor negative emotions. It’s interesting -- perhaps coincidentally so -- because Hamlet was emotionally paralyzed and incapable of taking action.
@@ -63,7 +63,7 @@ The remainder of text is split between positive and negative words, with negativ
 
 NRC sentiment analysis gives more detailed insight into the emotional state of Hamlet.  Breaking down the meaning of words to a percentage of the text, we see that Hamlet’s emotions are both positive (2.5 percent) and negative (2 percent). Though this is slightly different than the VADER analysis, it is still very perceptive as Hamlet is thinking of death, while deciding to live. Hamlet is also expressing a considerable amount of fear, which is accurate given that he is afraid of what death will bring. There are other emotions that are not immediately evident, such as surprise, but there are others that are obvious in the text, such as anger.   
 
-![HamletNRC](../images/Gehrig/nrchamlet.png)
+![HamletNRC](../images/Gehrig/hamletnrc.png)
 (*Sentiment Mining Hamlet’s soliloquy with the NRC Sentiment Lexicon. Notice the mixed emotions of the emotionally paralyzed Hamlet*)
 
 In short, the NRC breaks down Hamlet’s soliloquy very well.
