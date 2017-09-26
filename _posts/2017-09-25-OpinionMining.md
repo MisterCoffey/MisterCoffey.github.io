@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Machine Learning: A Speechwriter's New Best Friend"
+title: "Machine Learning: A Writer's New Best Friend"
 ---
 
 **Opinion Mining Shakespeare, Lincoln and Gehrig**
@@ -40,7 +40,8 @@ First, let’s demonstrate of the power of sentiment analysis by running it on w
 
 Though technically not a speech, Hamlet’s soliloquy has among the most recognizable passages in theater and literature. Delivered by Hamlet in the eponymous play, the soliloquy reveals the thoughts of an indecisive prince as he contemplates suicide (“To be or not be…”).  Hamlet vacillates between thoughts of life and death, yearning for death while grasping for life. It is also further evidence of Hamlet’s paralyzing indecision.  The soliloquy is similar to the *Luckiest Man* speech in that both include a contemplation of death.
 
-![Duration](../images/Gehrig/code.png)
+![Code](../images/Gehrig/code.png)
+
 (*Code for a quick scrape of Wikipedia to find text of Hamlet’s soliloquy & create a word cloud*)
 
 **Hamlet Word Cloud**
@@ -48,6 +49,7 @@ Though technically not a speech, Hamlet’s soliloquy has among the most recogni
 Let’s first reduce Hamlet’s soliloquy to a word cloud.
 
 ![HamletCloud](../images/Gehrig/hamletcloud.png)
+
 (*The Hamlet word cloud suggests mixed emotions about life and death*)
 
 A word cloud is a visualization technique that provides a cursory analysis of text. The bigger the word in a word cloud, the more the word is used.  
@@ -55,6 +57,7 @@ A word cloud is a visualization technique that provides a cursory analysis of te
 Analysis of Hamlet’s word cloud gives us some insight into the temperament of his soliloquy. The words ‘death’, ‘die’, and sleep jump out from the text, and these words to some extent capture the mood of Hamlet’s soliloquy. It’s easy to sense that the mood is depressing, but the word cloud does not give us a detailed analysis of the emotions. Is it more positive than negative? Do the emotions express more anger than fear, more joy than sorrow?
 
 ![HamletVader](../images/Gehrig/hamletvader.png)
+
 (*VADER Analysis of Hamlet’s soliloquy. Look at the compound meaning of the passage; it is negative*)
 
 Sentiment analysis can readily dissect Hamlet’s emotions. Using VADER sentiment analysis and few lines of code*, we can explore the complex emotions of Hamlet’s soliloquy. As demonstrated by the visualization below, Hamlet’s emotions are for the most part neutral, meaning that the words have neither positive nor negative emotions. It’s interesting -- perhaps coincidentally so -- because Hamlet was emotionally paralyzed and incapable of taking action.
@@ -64,6 +67,7 @@ The remainder of text is split between positive and negative words, with negativ
 NRC sentiment analysis gives more detailed insight into the emotional state of Hamlet.  Breaking down the meaning of words to a percentage of the text, we see that Hamlet’s emotions are both positive (2.5 percent) and negative (2 percent). Though this is slightly different than the VADER analysis, it is still very perceptive as Hamlet is thinking of death, while deciding to live. Hamlet is also expressing a considerable amount of fear, which is accurate given that he is afraid of what death will bring. There are other emotions that are not immediately evident, such as surprise, but there are others that are obvious in the text, such as anger.   
 
 ![HamletNRC](../images/Gehrig/hamletnrc.png)
+
 (*Sentiment Mining Hamlet’s soliloquy with the NRC Sentiment Lexicon. Notice the mixed emotions of the emotionally paralyzed Hamlet*)
 
 In short, the NRC breaks down Hamlet’s soliloquy very well.
@@ -77,6 +81,7 @@ Delivered by Abraham Lincoln in 1863 following the bloodiest battle of the US Ci
 Like the *Luckiest Man* speech, the *Gettysburg Address* is brief, and like Hamlet’s soliloquy, it is filled with mixed emotions, in this case, grief for the dying, and faith in the future.  
 
 ![AbeCloud](../images/Gehrig/abecloud.png)
+
 (Word cloud of the *Gettysburg Address*)
 
 A word cloud gives us some insight into *Gettysburg Address*, though it’s not definitive. Like Hamlet’s soliloquy, the Lincoln word cloud reveals thoughts of life and death. In addition, it shows words of war, devotion, greatness and dedication.  Clearly, it deals with complex emotions, but the word cloud cannot analyze these emotions for us.
@@ -84,6 +89,7 @@ A word cloud gives us some insight into *Gettysburg Address*, though it’s not 
 VADER sentiment analysis does a better job of sensing mixed emotions in Lincoln’s speech, though positive emotions  (0.15) have a slight edge over negative emotions (0.10). Unlike Hamlet’s soliloquy, Lincoln’s *Gettysburg Address* has a positive overall positive sentiment. This seems accurate, as Hamlet spends most of the soliloquy contemplating death, deciding against it on account of a paralyzing fear of the unknown. Lincoln in contrast muses over death by expressing hope for the future.
 
 ![AbeVader](../images/Gehrig/abevader.png)
+
 (VADER analysis of the *Gettysburg Address*. It reveals the mixed emotions of Abraham Lincoln’s *Gettysburg Address*. Unlike Hamlet, which had a negative compound sentiment, the Gettysburg Address has a positive compound sentiment)
 
 NRC Sentiment analysis can dig even deeper into the *Gettysburg Address*, and shows that the positive emotions (0.034) far outweigh the negative emotions (0.015). We see negative emotions of sadness, anger and disgust, but they are dwarfed by the positive emotions of trust, anticipation and joy. It is a very short ride from the horrific depths of war to anticipation for the future.  What a powerful journey.
@@ -99,6 +105,7 @@ The *Luckiest Man* speech is also like the *Gettysburg Address* as it is a paneg
 A word cloud of the *Luckiest Man* speech tells us little about the mood of the speech. This is partly because of the Gehrig’s heavy reliance on the rhetorical devices of epistrophe and anaphora; that is, he repeats words at the beginning and end of  sentences. He uses anaphora at the beginning of the sentence with the word “consider” and he uses epistrophe by repeating the idiom “that’s something.” These devices muddy the word cloud, making it difficult to interpret.
 
 ![LouCloud](../images/Gehrig/gehrigcloud.png)
+
 (*Word cloud of the Luckiest Man speech. Heavy use of rhetorical devices of epistrophe and anaphora make it the word cloud difficult to interpret*)
 
 
@@ -107,11 +114,13 @@ In a previous [post](https://mistercoffey.github.io/Kickster/), I reported my pr
 Vader analysis does a better job than a word cloud of discerning Gehrig’s mood. It tells us that the *Luckiest Man* speech has negative emotions, but these emotions are outweighed by the positive emotions. The compound meaning is actually very positive.
 
 ![LouCloud](../images/Gehrig/gehrigvader.png)
+
 (*The compound emotions of Gehrig’s Luckiest Man speech is extremely positive.*)
 
 When we delve deeper into the *Luckiest Man* speech using NRC sentiment analysis, we find evidence of negative emotions, in addition to an even stronger reliance on  positive emotions. Indeed, positive sentiments are twice that of the negative ones. Emotions of fear, anger and sadness are present, but they are not at the same level as feelings of trust and joy.
 
 ![LouCloud](../images/Gehrig/gehrignrc.png)
+
 (*Though overwhelmingly positive, the Luckiest Man speech harbors some complex, conflicting emotions*)
 
 What we learn from mining the *Luckiest Man* speech is that it, like the *Gettysburg Address*, does not submit to the somber nature of the moment. It has a surprising twist. He acknowledges the obvious—Gehrig’s imminent death--but refuses to submit to it.
