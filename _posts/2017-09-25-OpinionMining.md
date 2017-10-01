@@ -129,7 +129,7 @@ Imagine the alternatives to these speeches. Lincoln could have easily dwelled on
 
 As we can see, opinion mining has great potential for dissecting speeches, and is a great resource for speechwriters.  In the example above, bother NRC and VADER were able to parse through texts replete with complex, mixed emotions.  VADER did an excellent job of revealing overall meaning, while NRC did a better job of revealing more nuanced emotions.
 
-While opinion mining cannot replace the art of rhetoric, it can help writers decide which emotions to hit and which to avoid.  It can also give instant feedback on a speech, and allow writers to compare their work to other similar speeches.
+Though opinion mining cannot replace the art of rhetoric, it can help writers decide which emotions to hit and which to avoid.  It can also give instant feedback on a speech, and allow writers to compare their work to other similar speeches.
 
 
-* This post modified functions created by Dr. Hardeep Johar of Columbia University for his Data Analytics in Python class
+* This post modified functions created by Dr. Hardeep Johar of Columbia University for his Data Analytics in Python class.
