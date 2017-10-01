@@ -6,7 +6,7 @@ title: "Machine Learning: A Writer's New Best Friend"
 **Opinion Mining Shakespeare, Lincoln and Gehrig**
 
 
-On July 4, 1939, Lou Gehrig delivered what is considered one of the greatest speeches in US history. What made this speech so memorable? It turns out machine learning can give us a number of insights.
+On July 4, 1939, Lou Gehrig delivered what is considered one of the greatest speeches in US history. What made this speech so memorable? It turns out machine learning can give us a few insights.
 
 **Background**
 
@@ -18,13 +18,13 @@ The Yankees honored the man they called the “Iron Horse” that July 4th with 
 
 The speech Gehrig delivered on that Independence Day was so moving, and his career so celebrated, that Hollywood memorialized it in the film Pride of the Yankees starring [Gary Cooper.](https://www.si.com/mlb/2017/06/21/lou-gehrig-gary-cooper-pride-of-the-yankees-book) Author [William Safire](https://books.google.com/books?id=dBJpAwAAQBAJ&pg=PT480&lpg=PT480&dq=william+safire+best+speeches+gehrig&source=bl&ots=yqFXXJOsRG&sig=bcanK-WMUt1WdOtpZ1VR4fYdUUs&hl=en&sa=X&ved=0ahUKEwiVsfT10bHWAhUHNSYKHQQPD34Q6AEIMDAB#v=onepage&q=william%20safire%20best%20speeches%20gehrig&f=false ) included the speech in his anthology of great speeches, and it continues to be a [topic of regular internet conversation](https://www.washingtonpost.com/entertainment/books/the-truth-behind-the-legend-of-lou-gehrig/2017/09/14/4e106770-94b5-11e7-aace-04b862b2b3f3_story.html?utm_term=.7f23220a7287) 75+ years later.
 
-We remember it as the *Luckiest Man* speech, because Gehrig declares himself the "luckiest man on the face of the earth notwithstanding his impending passing. It was brief. It was humble. It was moving. It was timeless.  The speech transcends sports. The echoing lines of Gehrig’s farewell can evoke emotion in even the most ardent sports hater.
+We remember it as the *Luckiest Man* speech, because Gehrig declares himself the "luckiest man on the face of the earth" notwithstanding his impending passing. It was brief. It was humble. It was moving. It was timeless.  The speech transcends sports. The echoing lines of Gehrig’s farewell can evoke emotion in even the most ardent sports hater.
 
 **Exploring Text through Machine Learning**
 
 What accounts for the enduring nature of the *Luckiest Man* speech?  It’s easy to wax eloquent on its humility, but which words in the text makes this speech resonate three quarters of a century after its delivery?  This is where machine learning can provide some help.
 
-An exciting area of machine learning is opinion mining or sentiment analysis. Using dictionaries of emotions associated with words, one can use algorithms to mine text and determine the sentiment of the writer.
+An exciting area of machine learning is opinion mining, otherwise known as sentiment analysis. Using dictionaries of emotions associated with words, one can use algorithms to mine text and determine the sentiment of the writer.
 
 There are several dictionaries available to assist in the opinion mining process. One is the NRC Sentiment and emotion Lexicon, the creators of which (Saif M. Mohammad & Pierre Charron) generously granted me a limited use their [lexicon.](http://sentiment.nrc.ca/lexicons/)
 
@@ -46,21 +46,20 @@ Though technically not a speech, Hamlet’s soliloquy has among the most recogni
 
 **Hamlet Word Cloud**
 
-Let’s first reduce Hamlet’s soliloquy to a word cloud.
+Let’s first reduce Hamlet’s soliloquy to a word cloud. A word cloud is a visualization technique that provides a cursory analysis of text. The bigger the word in a word cloud, the more the word is used.
 
 ![HamletCloud](../images/Gehrig/hamletcloud.png)
 
 (*The Hamlet word cloud suggests mixed emotions about life and death*)
 
-A word cloud is a visualization technique that provides a cursory analysis of text. The bigger the word in a word cloud, the more the word is used.  
 
-Analysis of Hamlet’s word cloud gives us some insight into the temperament of his soliloquy. The words ‘death’, ‘die’, and sleep jump out from the text, and these words to some extent capture the mood of Hamlet’s soliloquy. It’s easy to sense that the mood is depressing, but the word cloud does not give us a detailed analysis of the emotions. Is it more positive than negative? Do the emotions express more anger than fear, more joy than sorrow?
+Analysis of Hamlet’s word cloud gives us some insight into the temperament of his soliloquy. The words ‘death’, ‘die’, and 'sleep; jump out from the text, and these words to some extent capture the sentiment of Hamlet’s soliloquy. It’s easy to sense that the mood is depressing, but the word cloud does not give us a detailed analysis of the emotions. Is it more positive than negative? Do the emotions express more anger than fear, more joy than sorrow?
 
 ![HamletVader](../images/Gehrig/hamletvader.png)
 
 (*VADER Analysis of Hamlet’s soliloquy. Look at the compound meaning of the passage; it is negative*)
 
-Sentiment analysis can readily dissect Hamlet’s emotions. Using VADER sentiment analysis and few lines of code*, we can explore the complex emotions of Hamlet’s soliloquy. As demonstrated by the visualization below, Hamlet’s emotions are for the most part neutral, meaning that the words have neither positive nor negative emotions. It’s interesting -- perhaps coincidentally so -- because Hamlet was emotionally paralyzed and incapable of taking action.
+Opinion mining can readily dissect Hamlet’s emotions. Using VADER sentiment analysis and few lines of code*, we can explore the complex emotions of Hamlet’s soliloquy. As demonstrated by the visualization below, Hamlet’s emotions are for the most part neutral, meaning that the words have neither positive nor negative emotions. It’s interesting -- perhaps coincidentally so -- because Hamlet was emotionally paralyzed and incapable of taking action.
 
 The remainder of text is split between positive and negative words, with negative emotions edging out the positive. This makes sense, as Hamlet does not long for life as much as he fears death. But the compound meaning — the overall emotion--  is negative.  This is the only possible emotional sentiment of a speech that is very nearly a suicide letter.
 
@@ -94,11 +93,11 @@ VADER sentiment analysis does a better job of sensing mixed emotions in Lincoln�
 
 NRC Sentiment analysis can dig even deeper into the *Gettysburg Address*, and shows that the positive emotions (0.034) far outweigh the negative emotions (0.015). We see negative emotions of sadness, anger and disgust, but they are dwarfed by the positive emotions of trust, anticipation and joy. It is a very short ride from the horrific depths of war to anticipation for the future.  What a powerful journey.
 
-**Opinion Mining the *Luckiest Man***
+**Mining the *Luckiest Man***
 
-Now that we see the power of Sentiment Analysis, let’s return to the *Luckiest Man* speech. In many respects, the *Luckiest Man* is like Hamlet’s soliloquy, as Gehrig is delivering it in contemplation of death. There is one key difference: the prince had a choice whether to embrace death; Lou Gehrig did not as his imminent demise was fairly certain.
+Now that we see the power of sentiment analysis, let’s return to the *Luckiest Man* speech. In many respects, the *Luckiest Man* is like Hamlet’s soliloquy, as Gehrig is delivering it in contemplation of death. There is one key difference: the prince had a choice whether to embrace death; Lou Gehrig did not as his imminent demise was fairly certain.
 
-The *Luckiest Man* speech is also like the *Gettysburg Address* as it is a panegyric of sorts, but one where the man delivering the speech is compelled to eulogize himself.  It is also like the *Gettysburg Address* as Gehrig, like Lincoln, neither ignores the morbid nature of the day, nor refuses to let the melancholy of the moment subdue any positive emotions.
+The *Luckiest Man* speech is also like the *Gettysburg Address* as it is a panegyric of sorts, but one where the man delivering the speech is compelled to eulogize himself.  It is also like the *Gettysburg Address* as Gehrig, like Lincoln, neither ignores the morbid nature of the day, nor allows the melancholy of the moment subdue any positive emotions.
 
 *Luckiest Man Word Cloud*
 
@@ -108,10 +107,7 @@ A word cloud of the *Luckiest Man* speech tells us little about the mood of the 
 
 (*Word cloud of the Luckiest Man speech. Heavy use of rhetorical devices of epistrophe and anaphora make it the word cloud difficult to interpret*)
 
-
-In a previous [post](https://mistercoffey.github.io/Kickster/), I reported my progress at building an algorithm predicting the probability of success on Kickstarter. I was able to build a model that had 68 percent accuracy on a test set. I also attempted to successfully predict the probability of success with two live Kickstarter campaigns: *[Love Found]*(https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua) and *[Renegade Repos]*(https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search).
-
-Vader analysis does a better job than a word cloud of discerning Gehrig’s mood. It tells us that the *Luckiest Man* speech has negative emotions, but these emotions are outweighed by the positive emotions. The compound meaning is actually very positive.
+VADER analysis does a better job than a word cloud of discerning Gehrig’s mood. It tells us that the *Luckiest Man* speech has negative emotions, but these emotions are outweighed by the positive emotions. The compound meaning is actually very positive.
 
 ![LouCloud](../images/Gehrig/gehrigvader.png)
 
@@ -123,11 +119,11 @@ When we delve deeper into the *Luckiest Man* speech using NRC sentiment analysis
 
 (*Though overwhelmingly positive, the Luckiest Man speech harbors some complex, conflicting emotions*)
 
-What we learn from mining the *Luckiest Man* speech is that it, like the *Gettysburg Address*, does not submit to the somber nature of the moment. It has a surprising twist. He acknowledges the obvious—Gehrig’s imminent death--but refuses to submit to it.
+What we learn from mining the *Luckiest Man* speech is that it, like the *Gettysburg Address*, does not submit to the somber nature of the moment. It has a surprising twist. He acknowledges the obvious— mortality --but refuses to submit to it.
 
 Perhaps this is the great secret of the *Luckiest Man* speech, and the great secret to the *Gettysburg Address*: Both speeches remind the listener of the impermanence of the human condition, yet deliver an abundant hope in the present and the future.  
 
-Imagine the alternatives to these speeches. Lincoln could have easily dwelled on the loss of thousands of lives, and called for revenge. Lincoln could have also given a perfunctory “thank you” and harped on some legislative agenda.  Similarly, Gehrig could have dwelled on his so-called “bad break” of ALS. He too could have said “thank you” for the afternoon, acknowledged the dignitaries in attendance, and walked-away from the microphone.  Neither avoided the discomfort of discussing mortality. Both acknowledged negative but dwelled on the positive. This perhaps is what makes both speeches among the most cherished in US history.
+Imagine the alternatives to these speeches. Lincoln could have easily dwelled on the loss of thousands of lives, and called for revenge. Lincoln could have also given a perfunctory “thank you” and harped on some legislative agenda.  Similarly, Gehrig could have dwelled on his so-called “bad break” of ALS. He too could have said “thank you” for the afternoon, acknowledged the dignitaries in attendance, and walked-away from the microphone.  Neither avoided the discomfort of discussing death. Both acknowledged negative, but dwelled on the positive. This perhaps is what makes both speeches among the most cherished in US history.
 
 **Conclusion**
 
