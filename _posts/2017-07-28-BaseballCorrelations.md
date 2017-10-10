@@ -83,7 +83,7 @@ The one thing A-Rod did have was name recognition. He was a star, both famous an
 
 Of course, this is just a theory.
 
-**Cool Baseball Correlation #3: When It Comes to Home Runs, Not All Sacrifices Are Created Equal**
+**Cool Baseball Correlation #4: Not All Sacrifices Are Created Equal**
 
 There are two types of sacrifices in baseball: Sacrifice Flies, and Sacrifice Hits. A sacrifice fly typically occurs when an outfielder catches a ball, and a base runner scores on the play.
 
