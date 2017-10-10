@@ -61,7 +61,7 @@ Compare for example, rookie [Jose Peraza](https://www.baseball-reference.com/reg
 
 *(Papi Style: David Ortiz rounds the bases slowly. Picture: Wikipedia)*
 
-**Cool Baseball Correlation #2: Attendance Is in the Stars**
+**Cool Baseball Correlation #3: Attendance Is in the Stars**
 
 Fans love the long ball above all else, but it’s possible that fans love a star with a big fat salary even more.
 
