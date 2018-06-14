@@ -111,7 +111,7 @@ VADER analysis does a better job than a word cloud of discerning Gehrig’s mood
 
 ![LouCloud](../images/Gehrig/gehrigvader.png)
 
-(*The compound emotions of Gehrig’s Luckiest Man speech is extremely positive.*)
+(*The compound meaning of Gehrig’s Luckiest Man speech is extremely positive.*)
 
 When we delve deeper into the *Luckiest Man* speech using NRC sentiment analysis, we find evidence of negative emotions, in addition to an even stronger reliance on  positive emotions. Indeed, positive sentiments are twice that of the negative ones. Emotions of fear, anger and sadness are present, but they are not at the same level as feelings of trust and joy.
 
