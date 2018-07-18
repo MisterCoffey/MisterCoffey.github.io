@@ -6,7 +6,7 @@ title: "UPDATE: Predicting Yankee Wins"
 **More Fun with the Pythagorean Expectation**
 
 
-In my previous post, I presented functions that predicted the 2018 wins for the New York Yankees and Boston Red Sox. This post presents a new function that condenses the two functions and provides the games back at the end of the season. Perhaps it's extraneous information, but it was fun to code.
+In my previous [post](https://mistercoffey.github.io/Pythag/), I presented functions that predicted the 2018 wins for the New York Yankees and Boston Red Sox. This post presents a new function that condenses those previous two functions into one. The function also provides the number of projected "games back" the Yankees and Red Sox will be from eachvother at the end of the season. Perhaps it's redundant information, but it was fun to code.
 
 ```
 def yankee_redsox():
@@ -15,9 +15,13 @@ def yankee_redsox():
     from bs4 import BeautifulSoup
     import requests
 
-    # PULLING RED SOX STATS
+    # CREATING TIME VARIABLES
+    today = dt.datetime.today()
     now = str(today.month) + '/'+ str(today.day)
     year = str(today.year)
+
+    # SCRAPING RED SOX STATS FROM WEB
+
     urlBos = \
     'https://www.baseball-reference.com/teams/BOS/'\
     + year +'.shtml'
@@ -54,7 +58,7 @@ def yankee_redsox():
 
 
 
-    #YANKEE STATS
+    #SCRAPING YANKEE STATS FROM WEB
 
     url = 'https://www.baseball-reference.com/teams/NYY/'+ \
     year +'.shtml'
@@ -74,7 +78,7 @@ def yankee_redsox():
     runs_scored = float(stats[7:10])
     runs_allowed= float(stats[17:20])
 
-    # Calculating games played
+    # CALCULATING GAMES PLAYED
 
     wins = []
     loss = []
@@ -92,18 +96,18 @@ def yankee_redsox():
     yankee_loss = float(loss[0])
     games =     yankee_wins + yankee_loss
 
-    #Calculating exponent using Pythaganpat
+    #CALCULATING EXPONENT USING PYTHAGANPAT
 
     exponent = ((runs_scored + runs_allowed)/games) ** .287
 
-    #Calculating Pythagorean expectation, expected wins & expected losses
+    #CALCULATING PYTH. EXPECTATION, EXPECTED WINS & LOSSES
 
     Pythagorean_Expectation= \
     round(1/(1+((runs_allowed/runs_scored)**exponent)),4)
     Expected_Wins =   round(Pythagorean_Expectation * 162,4)
     Expected_losses = (162- Expected_Wins)
 
-    #Calculating Games Back
+    #CALCULATING GAMES BACK
 
     if Expected_Wins > Bos_Expected_Wins:
 
