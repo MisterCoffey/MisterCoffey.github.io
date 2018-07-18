@@ -3,7 +3,7 @@ layout: post
 title: "UPDATE: Predicting Yankee Wins"
 ---
 
-**Fun with the Pythagorean Expectation**
+**More Fun with the Pythagorean Expectation**
 
 
 In my previous post, I presented functions that predicted the 2018 wins for the New York Yankees and Boston Red Sox. This post presents a new function that condenses the two functions and provides the games back at the end of the season. Perhaps it's extraneous information, but it was fun to code.
@@ -18,11 +18,15 @@ def yankee_redsox():
     # PULLING RED SOX STATS
     now = str(today.month) + '/'+ str(today.day)
     year = str(today.year)
-    urlBos = 'https://www.baseball-reference.com/teams/BOS/'+ year +'.shtml'
+    urlBos = \
+    'https://www.baseball-reference.com/teams/BOS/'\
+    + year +'.shtml'
     responseBos = requests.get(urlBos)
 
     soupBos = BeautifulSoup(responseBos.content,'lxml')
-    statsBos = soupBos.find_all('p')[3].get_text().strip('Pythagorean W-L:\n\t')
+    statsBos = \
+    soupBos.find_all('p')[3].get_text()\
+    .strip('Pythagorean W-L:\n\t')
     runs_scoredBos = float(statsBos[7:10])
     runs_allowedBos= float(statsBos[17:20])
 
@@ -42,7 +46,8 @@ def yankee_redsox():
     Bos_loss = float(lossBos[0])
     Bos_games =     Bos_wins + Bos_loss
     Bos_exponent = ((runs_scoredBos + runs_allowedBos)/Bos_games) ** .287
-    Bos_Pythagorean_Expectation= round(1/(1+((runs_allowedBos/runs_scoredBos)** Bos_exponent)),4)
+    Bos_Pythagorean_Expectation= \
+    round(1/(1+((runs_allowedBos/runs_scoredBos)** Bos_exponent)),4)
     Bos_Expected_Wins =   round(Bos_Pythagorean_Expectation * 162,4)
     Bos_Expected_losses = (162- Bos_Expected_Wins)
 
