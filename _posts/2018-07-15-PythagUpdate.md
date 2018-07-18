@@ -56,7 +56,8 @@ def yankee_redsox():
 
     #YANKEE STATS
 
-    url = 'https://www.baseball-reference.com/teams/NYY/'+ year +'.shtml'
+    url = 'https://www.baseball-reference.com/teams/NYY/'+ \
+    year +'.shtml'
 
     #Scraping baseball website for statistics
 
@@ -68,7 +69,8 @@ def yankee_redsox():
 
     #Pulling runs scored and runs allowed from soup
 
-    stats = soup.find_all('p')[3].get_text().strip('Pythagorean W-L:\n\t')
+    stats = soup.find_all('p')[3].get_text()\
+    .strip('Pythagorean W-L:\n\t')
     runs_scored = float(stats[7:10])
     runs_allowed= float(stats[17:20])
 
@@ -96,7 +98,8 @@ def yankee_redsox():
 
     #Calculating Pythagorean expectation, expected wins & expected losses
 
-    Pythagorean_Expectation= round(1/(1+((runs_allowed/runs_scored)**exponent)),4)
+    Pythagorean_Expectation= \
+    round(1/(1+((runs_allowed/runs_scored)**exponent)),4)
     Expected_Wins =   round(Pythagorean_Expectation * 162,4)
     Expected_losses = (162- Expected_Wins)
 
@@ -120,10 +123,13 @@ def yankee_redsox():
         summ = int(win_dif + loss_dif)
         games_back = summ/2
         print\
-        ("The Yankees should be {g} games behind Boston at the end of the season".format(g=games_back))
+        ("The Yankees should be {g} games behind Boston at the\
+         end of the season".format(g=games_back))
     print(' ')                                                             
-    print("NYY Pythagorean Expectation as of {d}: {p}".format(d= now,p= Pythagorean_Expectation))
-    print("BoSox Pythagorean Expectation as of {d}: {p}".format(d= now,p= Bos_Pythagorean_Expectation))
+    print("NYY Pythagorean Expectation as of {d}: {p}"\
+    .format(d= now,p= Pythagorean_Expectation))
+    print("BoSox Pythagorean Expectation as of {d}: {p}"\
+    .format(d= now,p= Bos_Pythagorean_Expectation))
     print("NYY Expected wins as of {d}: {p}".format(d= now,p= int(round(Expected_Wins,0))))                                    
     print("BoSox Expected Wins as of {d}: {p}".format(d= now,p= int(round(Bos_Expected_Wins,0))))         
 
