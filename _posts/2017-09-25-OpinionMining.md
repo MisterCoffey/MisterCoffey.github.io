@@ -75,7 +75,7 @@ In short, the NRC breaks down Hamlet’s soliloquy very well.
 
 Let’s apply sentiment analysis to perhaps the greatest speech in American history: [*The Gettysburg Address*.](http://www.loc.gov/exhibits/gettysburg-address/)
 
-Delivered by Abraham Lincoln in 1863 following the bloodiest battle of the US Civil War, the *Gettysburg Address* eulogized the dead, and embraced interminable freedom and liberty. It is a speech filled with hope and sadness.
+Delivered by Abraham Lincoln in 1863 following the bloodiest battle of the US Civil War, the *Gettysburg Address* eulogized the dead, and embraced freedom and liberty. It is a speech filled with hope and sadness.
 
 Like the *Luckiest Man* speech, the *Gettysburg Address* is brief, and like Hamlet’s soliloquy, it is filled with mixed emotions, in this case, grief for the dying, and faith in the future.  
 
@@ -119,7 +119,7 @@ When we delve deeper into the *Luckiest Man* speech using NRC sentiment analysis
 
 (*Though overwhelmingly positive, the Luckiest Man speech harbors some complex, conflicting emotions*)
 
-What we learn from mining the *Luckiest Man* speech is that it, like the *Gettysburg Address*, does not submit to the somber nature of the moment. It has a surprising twist. He acknowledges the obvious— mortality --but refuses to submit to it.
+What we learn from mining the *Luckiest Man* speech is that like the *Gettysburg Address*, it does not submit to the somber nature of the moment. It has a surprising twist. He acknowledges the obvious— mortality -- but refuses to submit to it.
 
 Perhaps this is the great secret of the *Luckiest Man* speech, and the great secret to the *Gettysburg Address*: Both speeches remind the listener of the impermanence of the human condition, yet deliver an abundant hope in the present and the future.  
 
