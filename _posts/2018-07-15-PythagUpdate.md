@@ -141,7 +141,7 @@ def yankee_redsox():
 ```
 ![pic](../images/Pythag2/joe.png)
 
-(*[The Splendid Splinter](https://baseballhall.org/hall-of-famers/williams-ted) and the [Yankee Clipper](https://baseballhall.org/hall-of-famers/dimaggio-joe) put the Yankee-Red Sox rivalry aside and enjoy a little levity during after the 1941 All-Star game. Source: [Creative Commons](https://www.flickr.com/photos/97453745@N02/9082143731/in/photolist-4idr9b-4idp8Q-agxT1i-eQymV2)*)
+(*The [Splendid Splinter](https://baseballhall.org/hall-of-famers/williams-ted) and the [Yankee Clipper](https://baseballhall.org/hall-of-famers/dimaggio-joe) put the Yankee-Red Sox rivalry aside and enjoy a little levity during after the 1941 All-Star game. Source: [Creative Commons](https://www.flickr.com/photos/97453745@N02/9082143731/in/photolist-4idr9b-4idp8Q-agxT1i-eQymV2)*)
 
 
 I am sad to report that at the current levels of run production, my beloved Yankees will finish four games behind the Red Sox at the end of the season. Given that I write this during the All-Star Break, there is plenty of time for the Yankees to improve and overtake the Red Sox. Let's wish the Bombers the best.
