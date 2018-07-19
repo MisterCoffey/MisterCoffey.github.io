@@ -16,6 +16,7 @@ def yankee_redsox():
     import requests
 
     # CREATING TIME VARIABLES
+
     today = dt.datetime.today()
     now = str(today.month) + '/'+ str(today.day)
     year = str(today.year)
@@ -138,6 +139,11 @@ def yankee_redsox():
     print("BoSox Expected Wins as of {d}: {p}".format(d= now,p= int(round(Bos_Expected_Wins,0))))         
 
 ```
+![pic](../images/Pythag2/joe.jpg)
+
+(*[The Splendid Splinter](https://baseballhall.org/hall-of-famers/williams-ted) and the [Yankee Clipper](https://baseballhall.org/hall-of-famers/dimaggio-joe) put the Yankee-Red Sox rivalry aside and enjoy a little levity. Source: [Creative Commons](https://www.flickr.com/photos/97453745@N02/9082143731/in/photolist-4idr9b-4idp8Q-agxT1i-eQymV2)*)
+
+
 I am sad to report that at the current levels of run production, my beloved Yankees will finish four games behind the Red Sox at the end of the season. Given that I write this during the All-Star Break, there is plenty of time for the Yankees to improve and overtake the Red Sox. Let's wish the Bombers the best.
 
 ![results](../images/Pythag2/pythag2.png)
