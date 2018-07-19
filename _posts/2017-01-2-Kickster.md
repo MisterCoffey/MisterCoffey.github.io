@@ -63,7 +63,7 @@ Publishing is the third most popular Kickstarter category. Unfortunately, publis
 
 Dance is the least funded category on Kickstarter, but it has the highest success rate (69 percent). In fact, art, music, theater & dance are the only categories where over 50 percent of campaigns are successful.  
 
-**Kickstarter Tip No. 8: Use Logistic Regression to Predict Whether Your Campaign**
+**Kickstarter Tip No. 8: Use Logistic Regression to Predict Campaign Success**
 
 We can build a simple algorithm that predicts the potential success of a Kickstarter campaign with 68 percent accuracy.
 
@@ -73,7 +73,7 @@ We can train a decent model on the following variables: 1. The category and subc
 
 ![model](../images/kickstarter/Model.png)
 
-*(R code for logistic regression model. This model performed 68 percent accuracy on a test set)*
+*(R code for logistic regression model. This model performed with 68 percent accuracy on a test set)*
 
 Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily selected two campaigns: *[Love Found]*(https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua), a dance project; and *[Renegade Repos]*(https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search), a web show.
 
@@ -85,7 +85,7 @@ Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily s
 
 Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probability of success (94 percent) had it ended in May, and set a goal of $3,000 with more levels.
 
-*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project, which fail more often than not; 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
+*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project (Videos fail more often than not); 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
 
 ![model](../images/kickstarter/Renegade.png)
 
