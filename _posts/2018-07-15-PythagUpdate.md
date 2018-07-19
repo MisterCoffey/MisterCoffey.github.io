@@ -139,7 +139,7 @@ def yankee_redsox():
     print("BoSox Expected Wins as of {d}: {p}".format(d= now,p= int(round(Bos_Expected_Wins,0))))         
 
 ```
-![pic](../images/Pythag2/joe.jpg)
+![pic](../images/Pythag2/joe.png)
 
 (*[The Splendid Splinter](https://baseballhall.org/hall-of-famers/williams-ted) and the [Yankee Clipper](https://baseballhall.org/hall-of-famers/dimaggio-joe) put the Yankee-Red Sox rivalry aside and enjoy a little levity. Source: [Creative Commons](https://www.flickr.com/photos/97453745@N02/9082143731/in/photolist-4idr9b-4idp8Q-agxT1i-eQymV2)*)
 
