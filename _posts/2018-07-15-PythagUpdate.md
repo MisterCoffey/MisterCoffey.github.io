@@ -6,7 +6,7 @@ title: "UPDATE: Predicting Yankee Wins"
 **More Fun with the Pythagorean Expectation**
 
 
-In my previous [post](https://mistercoffey.github.io/Pythag/), I presented functions that predicted the 2018 wins for the New York Yankees and Boston Red Sox. This post presents a new function that condenses those previous two functions into one. The function also provides the number of projected "games back" the Yankees and Red Sox will be from eachvother at the end of the season. Perhaps it's redundant information, but it was fun to code.
+In my previous [post](https://mistercoffey.github.io/Pythag/), I presented functions that predicted the 2018 wins for the New York Yankees and Boston Red Sox. This post presents a new function that condenses those previous two functions into one. The function also provides the number of projected "games back" the Yankees and Red Sox will be from each other at the end of the season. Perhaps it's redundant information, but it was fun to code.
 
 ```
 def yankee_redsox():
