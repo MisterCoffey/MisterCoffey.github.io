@@ -75,7 +75,7 @@ We can train a decent model on the following variables: 1. The category and subc
 
 *(R code for logistic regression model. This model performed with 68 percent accuracy on a test set)*
 
-Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily selected two campaigns: *[Love Found]*(https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua), a dance project; and *[Renegade Repos]*(https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search), a web show.
+Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily selected two campaigns: [*Love Found*](https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua), a dance project; and [*Renegade Repos*](https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search), a web show.
 
 ***Love Found***
 
