@@ -5,7 +5,7 @@ title: "UPDATE: Launching a Successful Kickstarter Campaign"
 
 **Initial Modeling Success**
 
-In a previous [post](https://mistercoffey.github.io/Kickster/), I reported my progress at building an algorithm predicting the probability of success on Kickstarter. I was able to build a model that had 68 percent accuracy on a test set. I also attempted to successfully predict the probability of success with two live Kickstarter campaigns: *[Love Found]*(https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua) and *[Renegade Repos]*(https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search).
+In a previous [post](https://mistercoffey.github.io/Kickster/), I reported my progress at building an algorithm predicting the probability of success on Kickstarter. I was able to build a model that had 68 percent accuracy on a test set. I also attempted to successfully predict the probability of success with two live Kickstarter campaigns: [Love Found](https://www.kickstarter.com/projects/makehistory/lovefound-by-jon-rua) and [Renegade Repos](https://www.kickstarter.com/projects/1707992326/renegade-repos-web-show?ref=nav_search).
 
 Both campaigns have ended, and our algorithm succeeded in predicting the outcome of both. We gave *Love Found* an 85 percent probability of success, and it indeed succeeded. In fact, *Love Found* exceeded its fundraising goal of $3,000 by raising $13,225. This author theorizes that the key to its success was that it was a dance campaign of short duration that set a low goal.
 

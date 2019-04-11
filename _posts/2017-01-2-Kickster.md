@@ -85,7 +85,7 @@ Let's put our model to the test on actual Kickstarter campaigns. I arbitrarily s
 
 Our algorithm tells us that *Love Found* has a 85 percent probability of success. It would have had an even higher probability of success (94 percent) had it ended in May, and set a goal of $3,000 with more levels.
 
-*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project (Videos fail more often than not); 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
+*Renegade Repo* is an example of a project with a low probability of success. The campaign has features typical of unsuccessful Kickstarters: 1. It is longer than a successful campaign (45 days); 2. It is a video project (videos fail more often than not); 3. The fundraising goal is high at $65,000; and 4. It sets fewer than eight fundraising levels.
 
 ![model](../images/kickstarter/Renegade.png)
 
